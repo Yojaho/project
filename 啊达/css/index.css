@@ -1,0 +1,60 @@
+﻿@font-face { 
+  font-family: sas; /*这里是说明调用来的字体名字*/ 
+  src: url('font/sas.TTF'); /*这里是字体文件路径*/ 
+} 
+@font-face { 
+  font-family: FZLTZHK; /*这里是说明调用来的字体名字*/ 
+  src: url('font/FZLTZHK.TTF'); /*这里是字体文件路径*/ 
+} 
+.top .title .titlecontent{margin-right: 20pt}
+.top{padding-bottom: 0;height:400pt;}
+.top .content .searchtext {margin-top:20px;line-height: 45px;margin-left: 312px}
+.top .content .searchtext a,.top .content .searchtext .list{float:left;font-family: FZLTZHK;}
+.top .content .searchtext a{font-size: 12pt;color: #fff;font-family: FZLTZHK;}
+.top .content .searchtext .list{background-image: url(../img/icon.png);height:22pt;line-height: 23pt;width: 58.333pt;text-align: center;color: #fff;font-size: 12pt;background-position:-17px -55px;margin-left:20pt;cursor:pointer;margin-top:7px;}
+
+.top .content .searchtext .list ul{background:#efefef;margin-top:4px;width:58.333pt;display:none;overflow-x:hidden;}
+.top .content .searchtext .list ul li{color:#727171;width:58.333pt;height:22pt;line-height:22pt;font-size: 10pt}
+.top .content .searchtext .list ul li.line{height:1px;background:#eb6e68;margin:2px 0 2px 0}
+.top .content .searchtext .list ul li.active{background:#d8d9d9}
+.top .content .searchtext .list .exchange{width:164.734pt;height:22pt;line-height:22pt;background:#efefef;position:absolute;display:none}
+.top .content .searchtext .list .exchange div{float:left;color:#727171;height:45px;font-size: 10pt}
+.top .content .searchtext .list .exchange div.exchangetext{width:30%;}
+.top .content .searchtext .list .exchange div.exchangetext:hover{color:#ea433b}
+
+.down{background: #efefef;width: 100%;text-align: center;}
+.down .footer{padding-top:88px;width:955pt;margin: 0 auto;padding-bottom: 50px;background: #efefef}
+.down .footer .leftbutton{background-image: url(../img/icon.png);background-position:-12px -91px;width:30px;height:30px;float:left;;margin-top:72px;cursor:pointer}
+.down .footer .rightbutton{background-image: url(../img/icon.png);background-position:-43px -92px;width:30px;height:30px;float: right;margin-top:72px;cursor:pointer}
+.down .footer .rightbutton:hover,.down .footer .leftbutton:hover{background-color:rgba(0,0,0,0.1);}
+.down .footer ul{float:left;overflow: hidden;margin-top: 25px}
+.down .footer ul li{list-style: none;float:left;margin-left:24px;}
+.down .footer ul li.list{background: #d7d7d7;width: 96pt;height: 96pt;border-radius: 96pt;position: relative;margin-left: 65pt}
+.down .footer ul li.list .border{height: 94pt;width: 94pt;border-radius: 94pt;background: #fff;position: absolute;left:1px;top:1px;}
+.down .footer ul li.list .border .img{height:92.722pt;width: 92.722pt;border-radius: 92.722pt;margin-left:1px;margin-top:1px;}
+.down .footer ul li.list .border .img .bg{background: rgba(234,67,59,0.5);height:92.722pt;width: 92.722pt;border-radius: 92.722pt;display: none;cursor: pointer;font-size:12pt;color: #fff;text-align: center;line-height: 92.722pt;font-family: FZLTZHK;}
+
+
+.titlebg{background: url('../img/titlebg.png');height: 141.64pt;width: 242.138pt;position: absolute;display:none;}
+.titlebg .titlttop{margin-top:24px;margin-left:44px}
+.titlebg .titlttop .headericon{width:37.088pt;height:37.088pt;background:#dcdddd;border-radius:37.088pt;text-align:center;float:left}
+.titlebg .titlttop .headericon img{width:35pt;height:35pt;border-radius:35pt;margin-top:1px;}
+.titlebg .titlttop .headertext{float:left;margin-top:5px;margin-left:20px;}
+.titlebg .titlttop .headertext .name{color:#727171;font-size:12pt;font-family: 黑体}
+.titlebg .titlttop .headertext .del{color:#9fa0a0;font-size:9pt;margin-top:6px;font-family: 黑体}
+.titlebg .titlttop .headertext .del .text{margin-left:14px;font-family: 黑体}
+.titlebg  .line{height:1px;background:#dcdddd;margin-top:15px;margin-left:30px;margin-right:30px}
+.titlebg  .titledown {margin-top:10px;font-size:9pt;margin-left:30px}
+.titlebg  .titledown p{margin:0px}
+.titlebg  .titledown .p{color:#9fa0a0;font-family: 黑体}
+.titlebg  .titledown .a{color:#ea433b;margin-top:6px;font-family: 黑体}
+
+.top .content{width:955pt;margin: 0 auto;margin-top:88px;}
+.top .content .logo{background-image: url(../img/logo.png);height:38.458pt;width: 120.791pt;margin: 0 auto;text-align: center;}
+.top .content .search{margin:0 auto;margin-top:22px;width:492.607pt;height:31.333pt;line-height: 31.333pt;border:1px solid #ea433b;}
+.top .content .search .text{width:399pt;height:30pt;font-size: 14pt;float:left;border: 1px solid #ea433b;text-indent: 20px;float:left;background:#fff;text-align:left;color:#999}
+.top .content .search .button{width:91.994pt;text-align: center;line-height: 31.333pt;height:31.333pt;background:#ea433b;outline: 0px;border: 0;font-size: 14pt;color: #fff;float:left;cursor:pointer;font-family: FZLTZHK;}
+
+.dropmenu{width:208px;position: absolute;top:79px;left: 0px;display: none}
+.dropmenu li{background: #a51b15}
+.dropmenu li:hover{background: #b5241d};

@@ -1,0 +1,98 @@
+<html>
+	<head>
+		<title>个人信息</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/wen.css" >
+		<link href="../css/mobiscroll.css" rel="stylesheet" />
+		<link href="../css/mobiscroll_date.css" rel="stylesheet" />
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+		<script src="../js/mobiscroll_date.js" charset="gb2312"></script> 
+		<script src="../js/mobiscroll.js"></script> 
+
+	</head>
+	<body>
+		<section class='info'>
+			<div class='head'>
+				<div class='name fl'>头&nbsp;像</div>
+				<div class='headImg fr' onclick="$(this).children()[1].click();">
+
+					<img src='../img/headimg.png' width="100%" />
+					<input type='file' style='display:none'/>
+				</div>
+				<div class='clear'></div>
+				<div class='righticon'>
+					<img src='../img/righticon.png'/>
+				</div>
+			</div>
+			<div class='list'>
+				<div class='name fl'>名&nbsp;字</div>
+				<div class='text fr'>
+					<input type='text' value="施工方"/>
+				</div>
+				<div class='clear'></div>
+			</div>
+			<div class='list'>
+				<div class='name fl'>手机号</div>
+				<div class='text fr'>
+					<input type='text' value="15243232323"/>
+				</div>
+				<div class='clear'></div>
+			</div>
+			<div class='list'>
+				<div class='name fl'>微信号</div>
+				<div class='text fr'>
+					<input type='text' value="wrwe"/>
+				</div>
+				<div class='clear'></div>
+			</div>
+			<div class='list'>
+				<div class='name fl'>邮&nbsp;箱</div>
+				<div class='text fr'>
+					<input type='text' value="sgsdfsds@qtwr.com"/>
+				</div>
+				<div class='clear'></div>
+			</div>
+			<div class='list'>
+				<div class='name fl'>生&nbsp;日</div>
+				<div class='text fr'>
+					<input type='text' value="1990-09-09" name="USER_AGE" id="USER_AGE" readonly/>
+				</div>
+				<div class='clear'></div>
+			</div>
+		</section>
+	</body>
+<script type="text/javascript">
+	$(function(){
+		var currYear = (new Date()).getFullYear();	
+		var opt={};
+		opt.date = {preset : 'date'};
+		opt.datetime = {preset : 'datetime'};
+		opt.time = {preset : 'time'};
+		opt.default = {
+			theme: 'android-ics light', //皮肤样式
+			display: 'modal', //显示方式 
+			mode: 'scroller', //日期选择模式
+			dateFormat: 'yyyy-mm-dd',
+			lang: 'zh',
+			showNow: true,
+			nowText: "今天",
+			startYear: currYear - 50, //开始年份
+			endYear: currYear + 10 //结束年份
+		};
+
+		$("#USER_AGE").mobiscroll($.extend(opt['date'], opt['default']));
+
+	})
+</script>
+</html>

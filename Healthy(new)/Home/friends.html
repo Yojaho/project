@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <meta name="viewport" content="width=device-width, target-densityDpi=medium-dpi" />
+	    <!--苹果特有meta-->
+	    <meta content="yes" name="apple-mobile-web-app-capable" />
+	    <meta content="telephone=no" name="format-detection" />
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title>我的亲友</title>
+		<link href="css/draw.css" rel="stylesheet" type="text/css" />
+		<script src="js/jquery-1.9.1.min.js" type="text/javascript"></script>
+		<script src="js/jquery.jplayer.min.js" type="text/javascript"></script>
+	</head>
+	<script>
+		window.onload = function() {
+			$(".xqx").click(function(){
+				document.getElementById('jg2').style.display = "none";
+				document.getElementById('jgcent2').style.display = "none";
+			});
+			$(".xqd").click(function(){
+				document.getElementById('jg2').style.display = "none";
+				document.getElementById('jgcent2').style.display = "none";
+			});
+			$(".qx").click(function(){
+				document.getElementById('jg2').style.display = "block";
+				document.getElementById('jgcent2').style.display = "block";
+			});
+  		};
+	</script>
+	<body>
+		<header class="header">
+			<div class="header_left">
+				<img class="head_icon" src="images/top.png" />
+			</div>
+			<div class="head_font">我的亲友</div>
+			<div class="header_right">
+				<img class="head_icon2" src="images/topadd.png" />
+			</div>
+		</header>
+		<section class="content">
+			<div class="F_cent">
+				<img src="images/tx1.png" alt="" class="fr tx" />
+				<img src="images/qx.png" id="qx" alt="" class="fr qx" />
+				<a class="Fz">186***0202</a>
+			</div>
+			<div class="F_cent">
+				<img src="images/tx2.png" alt="" class="fr tx" />
+				<img src="images/qx.png" alt="" class="fr qx" />
+				<a class="Fz">186***0202</a>
+			</div>
+			<div class="F_cent">
+				<img src="images/tx3.png" alt="" class="fr tx" />
+				<img src="images/qx.png" alt="" class="fr qx" />
+				<a class="Fz">186***0202</a>
+			</div>
+			<div class="F_cent">
+				<img src="images/tx4.png" alt="" class="fr tx" />
+				<img src="images/qx.png" alt="" class="fr qx" />
+				<a class="Fz">186***0202</a>
+			</div>
+			<div class="F_cent">
+				<img src="images/tx5.png" alt="" class="fr tx" />
+				<img src="images/qx.png" alt="" class="fr qx" />
+				<a class="Fz">186***0202</a>
+			</div>
+			<div class="F_cent">
+				<img src="images/tx6.png" alt="" class="fr tx" />
+				<img src="images/qx.png" alt="" class="fr qx" />
+				<a class="Fz">186***0202</a>
+			</div>
+			<div class="clear"></div>
+		    <div id="jg2" class="jg2"></div>
+		    <div id="jgcent2" class="jgcent2">
+		    	<div class="jgcent2_head">
+		    		<div class="jgcent2_head">你确定要取消关注此亲友吗？</div>
+		    	</div>
+				<input type="button" value="取消" class="xqx" />
+				<input type="button" value="确定" class="fr xqd" />
+		    </div>
+			<div class="clear"></div>
+		</section>
+
+	</body>
+
+</html>

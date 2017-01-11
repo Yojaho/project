@@ -1,0 +1,153 @@
+<html>
+	<head>
+		<title>确认订单</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/get.css" >
+
+		<link rel="stylesheet" type="text/css" href="../css/dropload.min.css">
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/dropload.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+
+	</head>
+	<body>
+		<section class='comfirm'>
+			<div class='hs'>
+				<a href='getGoodsChoose.html'>
+					<div class='fl img'><img src='../img/address.png'/></div>
+					<div class='fl right'>
+						<div class='title'>
+							<div class='fl getpeo'>收货人：<span>YOUWELL</span></div>
+							<div class='fr phone'>13777777777</div>
+							<div class='clear'></div>
+						</div>
+						<div class='deltxt'>预约地址：上海市卢湾区茂名南路59号西楼一组131室上海市卢湾区茂名南路59号西楼一组131室</div>
+					</div>
+					<div class='fr icon'><img src='../img/righticon.png'/></div>
+					<div class='clear'></div>
+				</a>
+			</div>
+			<ul class='list'>
+				<li>
+					<div class='fl img'>
+						<img src='../img/photoimg2.png'/>
+					</div>
+					<div class='fl right'>
+						<div class='title'>产品标题产品标题产品标题产品标题产品标题产品标题</div>
+						<div class='f'>
+							<div class='fl money'>￥<a>77.99</a></div>
+							<div class='fr count'>x<a>2</a></div>
+							<div class='clear'></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='fl img'>
+						<img src='../img/photoimg2.png'/>
+					</div>
+					<div class='fl right'>
+						<div class='title'>产品标题产品标题产品标题产品标题产品标题产品标题</div>
+						<div class='f'>
+							<div class='fl money'>￥<a>77.99</a></div>
+							<div class='fr count'>x<a>2</a></div>
+							<div class='clear'></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</li>
+			</ul>
+			<ul class='cons'>
+				<li>
+					<div class='name fl'>数量合计：</div>
+					<div class='txt fr'>5件</div>
+					<div class='clear'></div>
+				</li>
+				<li class='dianpuyouhui'>
+					<div class='name fl'>店铺优惠</div>
+					<div class='txt fr txt2'>优惠卷四</div>
+					<div class='icon'><img src='../img/righticon3.png'/></div>
+					<div class='clear'></div>
+					<dl class='more'>
+						<dd>优惠卷一</dd>
+						<dd>优惠卷二</dd>
+					</dl>
+				</li>
+
+				<li>
+					<div class='name fl'>积分抵扣</div>
+					<div class='fr'>
+						<div class='txt3 fl'>可用1050积分，抵扣￥10.00</div>
+						<div class='fr btn'>
+							<div class='bts'></div>
+						</div>
+						<div class='clear'></div>
+					</div>
+					
+					<div class='clear'></div>
+				</li>
+
+				<li>
+					<div class='name fl'>发票信息</div>
+					<div class='txt fr txt2'><a href='../new/invoice.html'>上海有为信息技术有限公司</a></div>
+					<div class='icon'><img src='../img/righticon3.png'/></div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='name fl'>留言：</div>
+					<div class='txt fl input txt2'>
+						<input type='text' placeholder='请输入留言信息'/>
+					</div>
+					<div class='clear'></div>
+				</li>
+			</ul>
+			<div class='kong'></div>
+			<div class='footer'>
+				<div class='fl'>合计：<span>￥<a>199.00</a></span></div>
+				<div class='fr'><a href='ordersuccss.html'>支付</a></div>
+				<div class='clear'></div>
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+		$(".btn .bts").click(function(){
+			if($(this).hasClass('on')){
+				$(this).removeClass('on');
+				$('.bts').animate({'left':'-1px'},100).css({'border':'1px solid #7f888b','background':'#fff'})
+			}
+			else{
+				$(this).addClass('on');
+				$('.bts').animate({'left':'0.4rem'},100).css({'border':'1px solid #ea5a3d','background':'#ea5a3d'})
+			}
+		})
+		$(".dianpuyouhui").find(".more").slideUp(0);
+		$(".dianpuyouhui").click(function(){
+			if($(this).hasClass('on')){
+				$(this).removeClass("on")
+				$(this).find('img').css({'animation':'moves_2 0.2s alternate forwards'});
+				$(this).find(".more").slideUp(100,function(){
+					$(".dianpuyouhui").css({'height':'1.24rem'});
+				});
+			}else{
+				$(this).find("img").css({'animation':'moves 0.2s alternate forwards'});
+				$(this).css({'height':'auto'}).addClass('on');
+				$(".dianpuyouhui").find(".more").slideDown(100);
+			}
+		})
+		$(".dianpuyouhui").find('dd').click(function(){
+			$(".dianpuyouhui").find('.txt2').text($(this).text());
+		})
+	})
+	</script>
+</html>

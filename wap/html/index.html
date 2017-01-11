@@ -1,0 +1,192 @@
+<html>
+	<head>
+		<title>首页</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/pravite.css">
+		<link rel="stylesheet" type="text/css" href="../css/dropload.min.css">
+
+		<script src="../js/base-loading.js"></script>
+		
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+		<script type="text/javascript" src="../js/dropload.min.js"></script>
+		
+	</head>
+	<body>
+		<section class='index'>
+			<div class='head'>
+				<div class='head_img'>
+					<img src='../img/head_img.png'/>
+				</div>
+				<div class='head_txt'>
+					奔波儿吧
+				</div>
+				<ul class='money'>
+					<li>
+						<div class='money_title'>充值总额(元)</div>
+						<div class='money_txt'>10000.56</div>
+					</li>
+					<li>
+						<div class='money_title'>佣金总额(元)</div>
+						<div class='money_txt'>2000.86</div>
+					</li>
+					<div class='clear'></div>
+				</ul>
+				<ul class='list'>
+					<li>
+						<div class='money_title'>待结算(元)</div>
+						<div class='money_txt'>10000.56</div>
+					</li>
+					<li>
+						<div class='money_title'>可提现(元)</div>
+						<div class='money_txt'>232.86</div>
+					</li>
+					<li>
+						<div class='money_title'>提现中(元)</div>
+						<div class='money_txt'>232.86</div>
+					</li>
+					<li>
+						<div class='money_title'>已提现(元)</div>
+						<div class='money_txt'>232.86</div>
+					</li>
+					<div class='split'></div>
+					<div class='split2'></div>
+					<div class='split3'></div>
+				</ul>
+			</div>
+			<div class='cons'>
+				<ul class='xiaji'>
+					<li class='fl'>
+						<a href='xiajihuiyuan.html'>
+							<div class='fl img'><img src='../img/xiajihuiyuanicon.png'/></div>
+							<div class='fl txt'>下级会员(人)</div>
+							<div class='clear'></div>
+							<div class='bottom'>1000</div>
+						</a>
+					</li>
+					<li class='fr'>
+						<a href='xiajidaili.html'>
+							<div class='fl img'><img src='../img/xiajidailiicon.png'/></div>
+							<div class='fl txt'>下级代理(人)</div>
+							<div class='clear'></div>
+							<div class='bottom'>1000</div>
+						</a>
+					</li>
+					<div class='clear'></div>
+					<div class='split'></div>
+				</ul>
+				<ul class='shenqingtixian'>
+					<li>
+						<a href='tixianshenqing.html'>
+							<div class='fl img'><img src='../img/tixianicon.png'/></div>
+							<div class='fl txt'>申请提现</div>
+							<div class='fr'>
+								<img src='../img/daili_righticon.png'/>
+							</div>
+							<div class='clear'></div>
+						</a>
+					</li>
+				</ul>
+
+				<ul class='shenqingtixian'>
+					<li>
+						<a href='chognzhi.html'>
+							<div class='fl img'><img src='../img/chongzhiicon.png'/></div>
+							<div class='fl txt'>充值明细</div>
+							<div class='fr'>
+								<img src='../img/daili_righticon.png'/>
+							</div>
+							<div class='clear'></div>
+						</a>
+					</li>
+				</ul>
+
+				<ul class='shenqingtixian'>
+					<li>
+						<a href='shouzhi.html'>
+							<div class='fl img'><img src='../img/shouzhiicon.png'/></div>
+							<div class='fl txt'>收支明细</div>
+							<div class='fr'>
+								<img src='../img/daili_righticon.png'/>
+							</div>
+							<div class='clear'></div>
+						</a>
+					</li>
+					<li>
+						<a href='tixian.html'>
+							<div class='fl img'><img src='../img/tixianicon2.png'/></div>
+							<div class='fl txt'>提现明细</div>
+							<div class='fr'>
+								<img src='../img/daili_righticon.png'/>
+							</div>
+							<div class='clear'></div>
+						</a>
+					</li>
+				</ul>
+
+				<ul class='shenqingtixian'>
+					<li>
+						<a href='shoukuang.html'>
+							<div class='fl img'><img src='../img/shoukuanicon.png'/></div>
+							<div class='fl txt'>收款明细</div>
+							<div class='fr'>
+								<img src='../img/daili_righticon.png'/>
+							</div>
+							<div class='clear'></div>
+						</a>
+					</li>
+				</ul>
+
+				<div class='footerlist'>
+					<a href='dailihelp.html' class='fl'>代理帮助</a>
+					<a href='tuiguang.html' class='on fr'>开始推广</a>
+				</div>
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript">
+	$(function(){
+		$(".footerlist a").click(function(){
+			$(this).css({'background':'#696CEA','color':'#fff'})
+		})
+
+	$('.index').dropload({
+        scrollArea : window,
+        loadDownFn : function(me){
+            $.ajax({
+                type: 'GET',
+                url: 'json/more.json',
+                dataType: 'json',
+                success: function(data){
+                    var result = '';
+                    for(var i = 0; i < data.lists.length; i++){
+                        result +=   'hello';
+                    }
+                    // 为了测试，延迟1秒加载
+                    setTimeout(function(){
+                        $('#lmess').append(result);
+                        me.resetload();
+                    },1000);
+                },
+                error: function(xhr, type){
+                    alert('Ajax error!');
+                    me.resetload();
+                }
+            });
+        }
+    })
+
+	})
+
+	</script>
+</html>

@@ -1,0 +1,112 @@
+<html>
+	<head>
+		<title>发票信息</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/wen.css" >
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+
+	</head>
+	<body>
+		<section class='invoice'>
+			<div class="type">
+			  	<span class="t">发票类型</span>
+			  	<div class="d">
+			  	 	<a style="margin-left:2.74rem;">纸质发票</a>
+			  	 	<a style="margin-left:1.33rem;" class='active'>电子发票</a>
+			  	 	<div class="clear"></div>
+			  	</div>
+			</div>
+			<div class="header">
+			  	<span class="t">发票抬头</span>
+			  	<div class="d">
+			  	 	<div class='fl'>
+			  	 		<img src='../img/getFlase.png'/>
+			  	 		<a style='margin-left:0.2rem'>个人</a>
+			  	 		<div class="clear"></div>
+			  	 	</div>
+			  	 	<div class='fl' style='margin-left:1.78rem'>
+			  	 		<img src='../img/getTrue.png'/>
+			  	 		<a style='margin-left:0.2rem'>单位</a>
+			  	 		<div class="clear"></div>
+			  	 	</div>
+			  	</div>
+			  	<div class='b'>
+			  		<div class='fl'>发票抬头</div>
+			  		<div class='fr'>
+			  			<input type="text" placeholder='上海有为信息技术有限公司' />
+			  		</div>
+			  		<div class="clear"></div>
+			  	</div>
+			</div>
+			<div class="header info" style='padding-left:0px'>
+			  	<span class="t">收票人信息</span>
+			  	<div class='d'>
+			  		<div class='fl'>收票人手机</div>
+			  		<div class='fr'>
+			  			<input type="text" placeholder='14236789098' />
+			  		</div>
+			  		<div class="clear"></div>
+			  	</div>
+			  	<div class='b'>
+			  		<div class='fl'>收票人邮箱</div>
+			  		<div class='fr'>
+			  			<input type="text" placeholder='用来接收电子发票邮件信息' />
+			  		</div>
+			  		<div class="clear"></div>
+			  	</div>
+			</div>
+			<div class="header content">
+			  	<span class="t">发票内容</span>
+			  	<div class="d">
+			  	 	<div class='fl'>
+			  	 		<img src='../img/getFlase.png'/>
+			  	 		<a style='margin-left:0.2rem'>食品</a>
+			  	 		<div class="clear"></div>
+			  	 	</div>
+			  	 	<div class='fl' style='margin-left:1.78rem'>
+			  	 		<img src='../img/getTrue.png'/>
+			  	 		<a style='margin-left:0.2rem'>办公用品</a>
+			  	 		<div class="clear"></div>
+			  	 	</div>
+			  	 	<div class='fl' style='margin-left:1.78rem'>
+			  	 		<img src='../img/getFlase.png'/>
+			  	 		<a style='margin-left:0.2rem'>明细</a>
+			  	 		<div class="clear"></div>
+			  	 	</div>
+			  	</div>
+			</div>
+			<div class='footerbtn'>
+				<a href='../get/confirmorder.html'>确     认</a>
+			</div>
+			<div class='kong'>
+				
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript">
+	$(function(){
+		$(".invoice .type .d a").click(function(){
+			$(this).addClass('active').siblings().removeClass("active")
+		})
+		$(".invoice .header .d div").click(function(){
+			$(this).parents(".d").find("img").attr('src','../img/getFlase.png')
+			$(this).find("img").attr('src','../img/getTrue.png');
+		})
+		$(".invoice .content .d div").click(function(){
+			$(this).parents(".d").find("img").attr('src','../img/getFlase.png')
+			$(this).find("img").attr('src','../img/getTrue.png');
+		})
+	})
+	</script>
+</html>

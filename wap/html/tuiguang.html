@@ -1,0 +1,159 @@
+<html>
+	<head>
+		<title>推广</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/pravite.css">
+		<link rel="stylesheet" type="text/css" href="../css/swipebox.css">
+
+		<script type="text/javascript" src="../js/base-loading.js"></script>
+		<script type="text/javascript" src="../js/ios-orientationchange-fix.js"></script>
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+		<script type="text/javascript" src="../js/jquery.swipebox.min.js"></script>
+	</head>
+	<body>
+		<section class='xiajidaili tuiguang'>
+			<ul class='nav'>
+				<li class='active'>发展玩家</li>
+				<li>发展代理</li>
+				<div class='sia'></div>
+				<div class='split'></div>
+				<div class='clear'></div>
+			</ul>
+			<div class='kong'></div>
+			<div class='one_step'>
+				<div class='headrem'>
+					<div class='title'>第一步</div>
+					<div class='txt'>任意挑选一张名片模版并生成出自己的二维码名片图片保存到手机</div>
+				</div>
+				<ul class='list'>
+					<li>
+						<div class='img'>
+							
+						</div>
+						<div class='btn'>生成并查看</div>
+					</li>
+					<li>
+						<div class='img'>
+							
+						</div>
+						<div class='btn'>生成并查看</div>
+					</li>
+					<li>
+						<div class='img'>
+							
+						</div>
+						<div class='btn'>生成并查看</div>
+					</li>
+					<div class='clear'></div>
+				</ul>
+			</div>
+			<div class='two_step'>
+				<div class='headrem'>
+					<div class='title'>第二步</div>
+					<div class='txt'>任意挑选一段宣传推广的图文内容保存到手机,同时搭配名片
+一起发去朋友圈或其他你认为有价值的地方,当有用户通过您
+的二维码进来后并产生付费后,您将获得一定比例的佣金回报。</div>
+				</div>
+				<div class='cons'>
+					<div class='constxt'>
+					大家好,给大家推荐一款超级牛逼的游戏,后啊啊啊啊是是是的
+的的 信息是 我我我我我我我我我我我我我我我i 威望我 我我
+我 额额是的是是是是是是是是是是是是是是是是是 是是是是
+叔叔，点我二维码骚进来付款喔！！！！！
+					</div>
+					<div class='time'>2016-07-08 12:11</div>
+				</div>
+				<div class="htmleaf-container">
+					<section id="exemple" class="container">
+						<div class="wrap small-width">
+							<div id="try"></div>
+							<ul id="box-container" class='lis'>
+								<li class="box">
+									<a class="swipebox" title="Fog" href='../img/banner1.png'>
+										<img src="../img/banner1.png" alt="image">
+									</a>
+								</li>
+								<li class="box">
+									<a class="swipebox" title="City" href='../img/banner1.png'>
+										<img src="../img/banner1.png" alt="image">
+									</a>
+								</li>
+								<li class="box">
+									<a class="swipebox" title="Street" href='../img/banner1.png'>
+										<img src="../img/banner1.png" alt="image">
+									</a>
+								</li>
+								<li class="box">
+									<a class="swipebox" title="Mustache Guy" href='../img/banner1.png'>
+										<img src="../img/banner1.png" alt="image">
+									</a>
+								</li>
+								<li class="box">
+									<a class="swipebox" title="Fog" href='../img/banner1.png'>
+										<img src="../img/banner1.png" alt="image">
+									</a>
+								</li>
+								<li class="box">
+									<a class="swipebox" title="City" href='../img/banner1.png'>
+										<img src="../img/banner1.png" alt="image">
+									</a>
+								</li>
+								<li class="box">
+									<a class="swipebox" title="Street" href='../img/banner1.png'>
+										<img src="../img/banner1.png" alt="image">
+									</a>
+								</li>
+								<li class="box">
+									<a class="swipebox" title="Mustache Guy" href='../img/banner1.png'>
+										<img src="../img/banner1.png" alt="image">
+									</a>
+								</li>
+								<div class='clear'></div>
+							</ul>
+						</div>
+					</section>
+				</div>
+			</div>
+
+			<div class='publicfooter' style='border-top:1px solid #e3e3e3;'>
+				点击加载/已经到底了
+			</div>
+			
+		</section>
+	</body>
+	<script type="text/javascript">
+	$( document ).ready(function() {
+
+			/* Basic Gallery */
+			$( '.swipebox' ).swipebox();
+			
+			$('.xiajidaili ul.nav li').click(function(){
+			if($(this).index() == 0){
+				$(".xiajidaili ul.nav .sia").animate({'left':'0px'});
+				$(this).addClass('active').siblings("li").removeClass('active');
+			}else{
+				$(".xiajidaili ul.nav .sia").animate({'left':'50%'});
+				$(this).addClass('active').siblings("li").removeClass('active');
+			}
+		})
+		
+		$(".tuiguang .one_step .list li .btn").click(function(){
+			$(this).css({'background':'#696CEA','color':'#fff'})
+			setTimeout(function(){
+				$(".tuiguang .one_step .list li .btn").css({'background':'#fff','color':'#7b7de5'})
+			},500)
+		})
+      });
+	</script>
+</html>

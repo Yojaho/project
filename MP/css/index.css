@@ -1,0 +1,59 @@
+body{background: #f5f2ec}
+.banner{ position:relative; }
+.banner .bd img{ display:block; width:100%;}
+.banner .hd{ text-align:center; height:0.15rem; position:absolute; z-index:8; left:0; right:0; bottom:0.3rem}
+.banner .hd li{ display:inline-block; vertical-align:middle; width:0.20rem; height:0.20rem;border-radius:0.31rem; margin:0 0.1rem; background:#fff; opacity: 0.5;  -webkit-opacity:0.5; }
+.banner .hd li.on{ background:#fff; opacity: 1;  -webkit-opacity:1;  }
+
+.qiandaobg{background: url(../img/headss.png);background-size: 100% 100%;height: 1.66rem;width: 100%;border-bottom: 1px solid #e5e9ec}
+/* .qiandaobg .img{height: 1.4rem;width: 1.4rem;margin-top: 0.15rem;margin-left: 2.8rem}
+.qiandaobg .img img{width: 100%;height: 100%}
+.qiandaobg .right{margin-left: 0.3rem}
+.qiandaobg .title{color: #d1292c;font-size: 0.32rem;}
+.qiandaobg .text{color: #d1292c;margin-top:0.4rem;font-family: 'Microsoft Yahei';}
+.qiandaobg .text span{float:left;}
+.qiandaobg .text img{width: 0.57rem;height: 0.55rem;margin-left: 0.15rem;margin-top: 0.1rem} */
+
+.newpro{background: #fff;margin-top: 0.1rem;border-top: 1px solid #e5e9ec;padding-top: 0.2rem}
+.newpro .title{border-left: 2px solid #d1292c;color: #d1292c;font-size: 0.4rem;position: relative;text-indent: 0.2rem;height: 0.53rem;line-height: 0.53rem;padding-top: 0.1rem}
+.newpro .title a{position: absolute;right: 0.48rem;top: 0.1rem;color: #7f888b;font-size: 0.2rem}
+.newpro ul {padding:0 0.1rem;margin-top: 0.2rem;border-bottom: 1px solid #e5e9ec;padding-bottom: 0.2rem}
+.newpro ul li{width: 49%;}
+.newpro ul li img{width: 100%}
+.newpro ul li .txt{color: #565656;font-size: 0.3rem;margin-top: 0.15rem}
+.newpro ul li .money{color: #ea5a3d;font-size: 0.24rem;margin-top: 0.15rem}
+.newpro ul li .money a{font-size: 0.5rem}
+
+.hotpro{background: #fff;margin-top: 0.1rem;border-top: 1px solid #e5e9ec;padding-top: 0.2rem}
+.hotpro .title{border-left: 2px solid #ea5a3d;color: #ea5a3d;font-size: 0.4rem;position: relative;text-indent: 0.2rem;height: 0.53rem;line-height: 0.53rem;padding-top: 0.1rem}
+.hotpro .title a{position: absolute;right: 0.48rem;top: 0.1rem;color: #7f888b;font-size: 0.2rem}
+.hotpro ul {padding:0 0.1rem;margin-top: 0.2rem;border-bottom: 1px solid #e5e9ec;padding-bottom: 0.2rem}
+.hotpro ul li{width: 3.2rem;margin-right: 0.1rem;}
+.hotpro ul li img{width: 100%}
+.hotpro ul li .txt{color: #565656;font-size: 0.3rem;margin-top: 0.15rem}
+.hotpro ul li .money{color: #ea5a3d;font-size: 0.24rem;margin-top: 0.15rem;text-align: left;}
+.hotpro ul li .money a{font-size: 0.5rem}
+.hotpro ul li.nomargin{margin-right: 0rem}
+
+.honspro{background: #fff;margin-top: 0.1rem;border-top: 1px solid #e5e9ec;padding-top: 0.2rem}
+.honspro .title{border-left: 2px solid #91a725;color: #91a725;font-size: 0.4rem;position: relative;text-indent: 0.2rem;height: 0.53rem;line-height: 0.53rem;padding-top: 0.1rem}
+.honspro .title a{position: absolute;right: 0.48rem;top: 0.1rem;color: #7f888b;font-size: 0.2rem}
+.honspro ul {padding:0 0.1rem;margin-top: 0.2rem;border-bottom: 1px solid #e5e9ec;padding-bottom: 0.2rem}
+.honspro ul li{width: 3.2rem;margin-right: 0.1rem;}
+.honspro ul li img{width: 100%}
+.honspro ul li .txt{color: #565656;font-size: 0.3rem;margin-top: 0.15rem}
+.honspro ul li .money{color: #ea5a3d;font-size: 0.24rem;margin-top: 0.15rem;text-align: left;}
+.honspro ul li .money a{font-size: 0.5rem}
+.honspro ul li.nomargin{margin-right: 0rem}
+
+.kong{height: 1.30rem;position: relative;}
+.footerlist{height: 1.13rem;background: #fff;border-top: 1px solid #e5e9ec;position: fixed;bottom: 0px;z-index: 99;width: 100%}
+.footerlist li {width: 25%;float:left;margin-top: 0.05rem}
+.footerlist li img{width: 100%;height: 100%;text-align: center}
+.footerlist li.active .txt{color: #ea5a3d}
+.footerlist li .home{width: 0.65rem;height: 0.58rem;margin: 0 auto}
+.footerlist li .type{width: 0.65rem;height: 0.58rem;margin: 0 auto}
+.footerlist li .find{width: 0.58rem;height: 0.58rem;margin: 0 auto}
+.footerlist li .cart{width: 0.61rem;height: 0.58rem;margin: 0 auto}
+.footerlist li .img{text-align: center;margin-top: 0.06rem}
+.footerlist li .txt{color: #e5e9ec;font-size: 0.2rem;text-align: center;margin-top: 0.05rem}

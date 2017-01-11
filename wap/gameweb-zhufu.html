@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>首页</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="css/pravite.css">
+
+		<script src="js/base-loading.js"></script>
+		<script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="js/size.js"></script>
+		
+		<script type="text/javascript" src="js/swipeslider.min.js"></script>
+	  
+	    <script>
+			$(document).ready(function () {
+				 var _width = $(window).width();
+			     $(".gameweb .gbox").css({ "width":_width-28+"px"});
+
+				 $('#full_feature').swipeslider();
+
+				 $(".inpbox .inpfu").click(function(){
+				 	 $(this).addClass("active").siblings().removeClass("active");
+				 })
+			    
+			});
+		</script>
+		
+	</head>
+	<body class="gamewebBody">
+	
+
+		<section class="gameweb">
+			<div class="logo">
+				<div class="gbox">
+					<div class="gb">
+						  <figure id="full_feature" class="swipslider">
+					        <ul class="sw-slides">
+					         <li class="sw-slide">
+					            <img src="img/banner2.png"  alt="" />
+					          </li>
+					          <li class="sw-slide">
+					           <img src="img/banner2.png"  alt="" />
+					          </li>       
+					         
+					        </ul>
+					      </figure>
+					</div>
+				</div>			
+			</div>
+			<p class="Promote">您当前还不是代理身份，无法进入管理后台</p>
+			<div class="Progobtn"><img src="img/font/font3.png" alt=""></div>
+			<div class="promarea">
+				推广内容区
+			</div>
+
+
+		
+			<div class="clear"></div>
+
+		</section>
+		<section class="register payfu">
+			 <div class="regbg ">
+			 	  <!--  <div class="close"><img src="img/close-icon.png" alt="" /></div> -->
+			 	  <div class="tfx"><img src="img/font/font4.png" alt="" /></div>
+			 	  <div class="inpbox">
+			 	  	   <div class="inpfu ">
+			 	  	   		<img src="img/weixin-icon.png" alt="">
+			 	  	   		<p>微信支付</p>
+			 	  	   </div>
+			 	  	   <div class="inpfu active">
+			 	  	   		<img src="img/zhifu-icon.png" alt="">
+			 	  	   		<p>微信支付</p>
+			 	  	   </div>
+			 	  	   <div class="clear"></div>
+
+			 	  </div>
+			 	  <div class="inpabtn">
+			 	  		<a ><img src="img/cancel-icon.png" class="cancelbtn pdimg" alt=""></a>
+			 	  		<a><img src="img/azhi-icon.png" class="zhibtn" alt=""></a>
+			 	  </div>
+			 </div>
+		</section>
+
+
+			<script type="text/javascript">
+		 $(function(){
+			  $(".cancelbtn,.zhibtn").click(function(){
+				 var _that =this;
+			 	 $(this).css("opacity","0.7");
+			 	 var time = setTimeout(function(){
+			 	 	clearTimeout(time);
+			 	 	 $(_that).css("opacity","1");;	
+			 	 },300);
+			 })
+
+		 })
+	</script>
+	
+		
+		  
+		     
+		
+
+	
+								   
+			
+	</body>
+	
+</html>

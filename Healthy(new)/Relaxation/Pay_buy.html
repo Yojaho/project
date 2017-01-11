@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<meta http-equiv="Content-Type" content="textml; charset=utf-8" />
+	    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+	    <meta name="viewport" content="width=device-width, target-densityDpi=medium-dpi" />
+	    <!--苹果特有meta-->
+	    <meta content="yes" name="apple-mobile-web-app-capable" />
+	    <meta content="telephone=no" name="format-detection" />
+	    <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+		<title>支付购买</title>
+		<link rel="stylesheet" href="css/style.css" />
+		<script type="text/javascript" src="js/jquery-1.9.1.min.js" ></script>
+		<script type="text/javascript">
+			/*支付购买*/
+			pb_wx = function(){
+				$('#pb_wx').addClass("pb_k2_kuang_div1");
+				$('#pb_wx').removeClass("pb_k2_kuang_div");
+				$('#pb_zfb').addClass("pb_k2_kuang_div");
+				$('#pb_zfb').removeClass("pb_k2_kuang_div1");
+			}
+			pb_zfb = function(){
+				$('#pb_wx').addClass("pb_k2_kuang_div");
+				$('#pb_wx').removeClass("pb_k2_kuang_div1");
+				$('#pb_zfb').addClass("pb_k2_kuang_div1");
+				$('#pb_zfb').removeClass("pb_k2_kuang_div");
+			}
+		</script>
+	</head>
+	<body>
+		<header class="header">
+			<div class="header_left">
+				<img class="head_icon" src="images/top.png" />
+			</div>
+			<div class="head_font">支付购买</div>
+			<div class="header_right"></div>
+			<div class="clear"></div>
+		</header>
+		<section class="content">
+			<div class="pb_kuang">
+				<div class="pb_k_icon"></div>
+				<p class="pb_kuang_p">￥9</p>
+				<p>测试你的身心健康综合程度</p>
+			</div>
+			<div class="pb_kuang2">
+				<div class="pb_k2_kuang">
+					<img src="images/pb_wx.png" />
+					<div id="pb_wx" onclick="pb_wx()" class="pb_k2_kuang_div"></div>
+					<p class="pb_k2_kuang_p1">微信支付</p>
+					<p class="pb_k2_kuang_p2">推荐安装微信5.0及以上版本的用户使用</p>
+					
+				</div>
+				<div class="pb_k2_kuang">
+					<img src="images/pb_zfb.png" />
+					<div id="pb_zfb" onclick="pb_zfb()" class="pb_k2_kuang_div1"></div>
+					<p class="pb_k2_kuang_p1">微信支付</p>
+					<p class="pb_k2_kuang_p2">推荐安装微信5.0及以上版本的用户使用</p>
+				</div>
+			</div>
+			<input type="button" class="pb_but" value="确认支付 ￥9" />
+			<div class="clear"></div>
+		</section>
+	</body>
+</html>

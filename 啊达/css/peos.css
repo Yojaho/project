@@ -1,0 +1,106 @@
+.top{height:51pt;padding-bottom: 0}
+.top .title .logo{background-image: url(../img/logotitle.png);height: 27pt;width: 84pt;float: left;}
+
+.down{background: #efefef;width: 100%;padding-top: 40pt}
+.down .content .title{width: 743pt;margin: 0 auto;text-align: center;margin-bottom:14pt;}
+.down .content .title .titleicon{background: url(../img/icon.png);background-position:-317px -14px;width:16pt;height:26pt;float:left;}
+.down .content .title a{font-size: 18pt;color: #b5241d;float:left;font-family: FZLTZHK;margin-top:4px;}
+.down .content .title .titlesmall{margin-top: 45px;text-align: left;font-size: 18px;color: #9fa0a0}
+.down .content .title .titlesmalltitle{float:left;font-family: FZLTZHK;font-size: 12pt}
+.down .content .title .titlesmall .right{float:right;}
+.down .content .title .titlesmall .right .share{width: 80pt;text-align: center;height: 24pt;line-height: 24pt;background: #fafafa;border-radius: 10px;border:1px solid #c9caca;float:left;}
+.down .content .title .titlesmall .right .share:hover{background: #fff;cursor: pointer;}
+.down .content .title .titlesmall .right .share .shareicon{background: url(../img/icon.png);background-position:-341px -16px;width:14pt;height:15pt;float:left;margin-top: 7px;margin-left:13px;}
+.down .content .title .titlesmall .right .share .text{float:left;margin-left:11px;font-family: FZLTZHK;font-size: 12pt}
+.down .content .title .titlesmall .right ul {float:left;margin-left:20px;}
+.down .content .title .titlesmall .right ul li{padding: 7px 20px;float:left;border: 1px solid #c9caca;background: #fafafa;border-radius: 0px 10px 10px 0px;cursor: pointer;font-family: FZLTZHK;font-size: 12pt}
+.down .content .title .titlesmall .right ul li:hover{background:#fff;}
+.down .content .title .titlesmall .right ul li.active{border-radius: 10px 0 0 10px;background: #c9caca;color: #fff;cursor: auto;font-size: 12pt}
+
+.down .content{margin: 0 auto;width: 798pt;padding-bottom: 86px}
+.down .content .toul{float:left;}
+.down .content .toul ul li{width:38pt;height:38pt;cursor: pointer;}
+.down .content .toul ul li span{display: none}
+.down .content .toul ul li.yanyuan{background: url(../img/bs1.png)}
+.down .content .toul ul li.canalar{background: url(../img/bs02.png)}
+.down .content .toul ul li.notetext{background: url(../img/bs03.png)}
+.down .content .toul ul li.task{background: url(../img/bs04.png)}
+.down .content .toul ul li.contants{background: url(../img/bs05.png)}
+.down .content .toul ul li.cloud{background: url(../img/bs06.png)}
+.down .content .toul ul li.delete{background: url(../img/bs07.png)}
+.down .content .toul ul li.question{background: url(../img/light1.png);width: 30.72pt;height: 30.72pt;margin-left:7px;margin-top:20px;}
+
+.down .content .toul ul li.yanyuan2{background-image: url(../img/bs1.png)}
+.down .content .toul ul li.canalar2{background-image: url(../img/bs2.png)}
+.down .content .toul ul li.notetext2{background-image: url(../img/bs3.png)}
+.down .content .toul ul li.task2{background-image: url(../img/bs4.png)}
+.down .content .toul ul li.contants2{background-image: url(../img/bs5.png)}
+.down .content .toul ul li.cloud2{background-image: url(../img/bs6.png)}
+.down .content .toul ul li.delete2{background-image: url(../img/bs7.png)}
+.down .content .toul ul li.question2{background-image: url(../img/light.png);width: 30.72pt;height: 30.72pt;margin-left:7px;margin-top:20px;}
+
+
+.down .content .contentbody{background: #fff;float:left;margin-left:17pt;width: 720pt;margin-top: 3px;padding-bottom:30px;height: 506px}
+.down .content .contentbody #uls{width: 100%;}
+.down .content .contentbody #uls li{list-style: none;float:left;width: 105pt;margin-top:20px;height: 180pt;margin-left:33pt;}
+.down .content .contentbody #uls div.list{background: #d7d7d7;width: 105pt;height: 105pt;border-radius: 105pt;position: relative;}
+.down .content .contentbody #uls div.list .border{height: 102.96pt;width: 102.96pt;border-radius: 102.96pt;background: #fff;position: absolute;left:1px;top:1px;}
+.down .content .contentbody #uls div.list .close{background: url(../img/icon.png);background-position:-139px -59px;width:18pt;height:18pt;position: absolute;right: 15px;bottom: 17px;cursor: pointer;display: none}
+.down .content .contentbody #uls div.list .border .img{height:92.722pt;width: 92.722pt;border-radius: 92.722pt;margin-top:7px;margin-left:7px;background: no-repeat;}
+.down .content .contentbody #uls div.list .border .img .bg{background: rgba(234,67,59,0.5);height:92.722pt;width: 92.722pt;border-radius: 92.722pt;display: none;cursor: pointer;font-size:24px;color: #fff;text-align: center;line-height: 92.722pt}
+.down .content .contentbody #uls div.listdown{width: 102.96pt;text-align: center;margin-top: 20px;}
+.down .content .contentbody #uls div.listdown .name{color: #595757;font-size: 14pt}
+.down .content .contentbody #uls div.listdown .del{color: #b5b5b6;font-size: 11pt;margin-top: 4px}
+
+
+.toulbgtext{background-image: url(../img/icon.png);background-position:-190px -51px;width:64pt;height:30pt;text-align: center;line-height: 30pt;color: #fff;text-align: center;font-size: 10pt;position: absolute;display: none}
+
+#titlepage{margin-top: 30px}
+
+
+.onchangtext{width:100%;height:30px;line-height:30px;border-radius:6px;border: 1px solid #ccc;text-indent: 12px}
+.onchangtextbutton{width:45%;height:30px;line-height:30px;background: #b5241d;color: #fff;text-align: center;border-radius: 6px;margin-top:3px;float:left;cursor: pointer;}
+.onchangtextbutton:hover{background: #f42218}
+.onchangtextclose{width: 45%;float:left;background: #fafafa;color: #000;text-align: center;line-height: 30px;height: 30px;border-radius: 6px;margin-top:3px;cursor: pointer;box-shadow: 1px 1px 1px #ccc;margin-left:10px;}
+.onchangtextclose:hover{background: #ddd}
+
+.shareitem{width: 100%;height: 100%;background: rgba(0,0,0,0.7);position: absolute;left: 0px;top: 0px;;display: none;opacity: 0;z-index: 99;}
+.shareitem .content{width:503pt;position: absolute;border-top: 5px solid #ea433b;background: #f7f8f8;padding-left: 70px;padding-right: 70px;padding-bottom: 30px;height:402.538pt;}
+.shareitem .content .title{margin-top:50px;color: #000;font-size: 16pt;font-family: FZLTZHK}
+.shareitem .content .input{margin-top:30px;width: 100%;border: 2px solid #cccccc;font-size:20px;text-indent: 12px;border-radius: 6px;height:44px;line-height: 44px}
+.shareitem .content .text{margin-top: 12px;}
+.shareitem .content .text .texttitle{float:left;margin-right:15px;font-size: 10pt;color: #999}
+.shareitem .content .text strong,.shareitem .content .text a{float:left;font-size: 10pt}
+.shareitem .content .text a{margin-right:5px;margin-left:5px;}
+.shareitem .content .text a:hover{color: #b5241d;cursor: pointer;}
+.shareitem .content .text .more{float:right;cursor: pointer;}
+.shareitem .content .text .more a{color: #933232}
+.shareitem .content .text .more .moreicon{background-image: url(../img/icon.png);background-position:-110px -92px;width:16px;height:11px;float:right;}
+.shareitem .content .col{margin-top: 21pt;border: 1px solid #dcdddd;padding-left: 30px;padding-bottom: 30px}
+.shareitem .content .col ul{width: 100%;max-height: 420px;overflow-y:auto;}
+.shareitem .content .col ul li{list-style: none;float:left;width: 20%;margin-top:20px;}
+.shareitem .content .col ul div.list{background: #d7d7d7;width: 60pt;height: 60pt;border-radius: 60pt;position: relative;}
+.shareitem .content .col ul div.list .change{background-image: url(../img/icon.png);background-position:-161px -91px;width:16px;height:16px;position: absolute;right:0px;top:10px;}
+.shareitem .content .col ul div.list .change2{background-image: url(../img/icon.png);background-position:-166px -64px;width:16px;height:16px;position: absolute;right:0px;top:10px;}
+.shareitem .content .col ul div.list .border{height: 58pt;width: 58pt;border-radius: 58pt;background: #fff;position: absolute;left:1px;top:1px;}
+.shareitem .content .col ul div.list .border .img{height:55pt;width: 55pt;border-radius: 55pt;margin-top:2px;margin-left:2px;background: no-repeat;}
+.shareitem .content .col ul div.list .border .img .bg{background: rgba(234,67,59,0.5);height:55pt;width: 55pt;border-radius: 55pt;display: none;cursor: pointer;font-size:24px;color: #fff;text-align: center;line-height: 55pt}
+.shareitem .content .col ul div.listdown{width: 60pt;text-align: center;margin-top: 5px;}
+.shareitem .content .col ul div.listdown .name{color: #595757;font-size: 9.24pt;font-family: FZLTZHK}
+.shareitem .content .col ul div.listdown .del{color: #b5b5b6;font-size: 7.26pt;margin-top: 2px;margin-top: 5px}
+.shareitem .content .button{margin-top: 16px;}
+.shareitem .content .ready{background: #b5241d;color: #fff;font-size: 12.6pt;text-align: center;height: 26pt;line-height: 26pt;width: 64pt;border-radius: 6px;float:left;cursor: pointer;margin-left:220px;}
+.shareitem .content .ready:hover{background: #ff8382}
+.shareitem .content .closed{background: #efefef;color: #000;font-size: 12.6pt;text-align: center;height: 26pt;line-height: 26pt;width: 64pt;border-radius: 6px;float:left;box-shadow: 2px 2px 1px #ddd;margin-left:10px;cursor: pointer;}
+.shareitem .content .closed:hover{background: #ddd}
+.shareitem .content .allget{float:right;margin-top: 14px;cursor: pointer;}
+.shareitem .content .allget a{font-size: 12pt;margin-right:5px;}
+.shareitem .content .allget .allgeticon{background-image: url(../img/icon.png);background-position:-161px -91px;width:16px;height:16px;float: right;}
+.shareitem .content .allget .allgeticon2{background-image: url(../img/icon.png);background-position:-166px -64px;width:16px;height:16px;float: right;}
+.shareitem .content .shareclose{background-image: url(../img/icon.png);background-position:-183px -23px;width:10px;height:10px;position: absolute;right: 10px;top: 5px;cursor: pointer;}
+
+
+.buttoninput {width: 100%;height:30.016pt;font-size: 14pt;float:left;border: 1px solid #ea433b;text-indent: 20px;float:left;background:#fff;text-align:left;color:#999;margin-top: 12px;line-height: 30.016pt;margin-bottom: 14px;font-size: 22px}
+.shareitem .content .text{}
+.inputbutton{opacity: 1;margin-top: 6px;margin-left: 5px}
+.inputbuttona{opacity: 0}

@@ -1,0 +1,114 @@
+<html>
+	<head>
+		<title>代理帮助</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/pravite.css">
+		<script src="../js/base-loading.js"></script>
+		
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+		
+	</head>
+	<body>
+		<section class='dailihelp'>
+			<ul>
+				<li>
+					<div class='name'>提现到账时间？<img src='../img/daili_righticon.png'/></div>
+					<div class='more'>
+						您好，刚刚注意到您的截图上面显示：充值失败，ZtcQ
+						Quin号码非法。请问您所充值的QQ号码是否输入正确。
+						是否确认号码？希望可以帮到您！
+					</div>
+				</li>
+				<li>
+					<div class='name'>支持提现到哪些银行？<img src='../img/daili_righticon.png'/></div>
+					<div class='more'>
+						您好，刚刚注意到您的截图上面显示：充值失败，ZtcQ
+						Quin号码非法。请问您所充值的QQ号码是否输入正确。
+						是否确认号码？希望可以帮到您！
+					</div>
+				</li>
+				<li>
+					<div class='name'>充值失败？<img src='../img/daili_righticon.png'/></div>
+					<div class='more'>
+						您好，刚刚注意到您的截图上面显示：充值失败，ZtcQ
+						Quin号码非法。请问您所充值的QQ号码是否输入正确。
+						是否确认号码？希望可以帮到您！
+					</div>
+				</li>
+				<li>
+					<div class='name'>游戏出错？<img src='../img/daili_righticon.png'/></div>
+					<div class='more'>
+						您好，刚刚注意到您的截图上面显示：充值失败，ZtcQ
+						Quin号码非法。请问您所充值的QQ号码是否输入正确。
+						是否确认号码？希望可以帮到您！
+					</div>
+				</li>
+				<li>
+					<div class='name'>到账金额不对？<img src='../img/daili_righticon.png'/></div>
+					<div class='more'>
+						您好，刚刚注意到您的截图上面显示：充值失败，ZtcQ
+						Quin号码非法。请问您所充值的QQ号码是否输入正确。
+						是否确认号码？希望可以帮到您！
+					</div>
+				</li>
+			</ul>
+			<div class='publicfooter'>
+				点击加载/已经到底了
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript">
+	$(function(){
+		var now = "";
+		$(".dailihelp ul li").find(".more").slideUp(0);
+		$(".dailihelp ul li").click(function(){
+			$(".dailihelp ul li").find(".more").slideUp(100);
+			if( now !=""){
+				if(now == $(this).index() +1){
+					$(this).removeClass("on")
+					$(this).find('img').css({'animation':'moves_2 0.2s alternate forwards'});
+					$(this).find(".more").slideUp(100,function(){
+						$(this).css({'height':'1.22rem'});
+					});
+					now = "";
+					return;
+					
+				}else{
+					now = $(this).index() + 1;
+				}
+			}else{
+				now = $(this).index() +1;
+			}
+			for(var i= 0 ;i<$(".dailihelp ul li").length;i++){
+				if($(".dailihelp ul li").eq(i).hasClass('on')){
+					$(".dailihelp ul li").eq(i).find('img').css({'animation':'moves_2 0.2s alternate forwards'});
+					$(".dailihelp ul li").eq(i).removeClass('on');
+				}
+			}
+			if($(this).hasClass('on')){
+				$(this).removeClass("on")
+				$(this).find('img').css({'animation':'moves_2 0.2s alternate forwards'});
+				$(this).find(".more").slideUp(100,function(){
+					$(this).css({'height':'1.22rem'});
+				});
+			}else{
+				$(this).addClass("on")
+				$(this).css({'height':'auto'});
+				$(this).find('img').css({'animation':'moves 0.2s alternate forwards'});
+				$(this).find(".more").slideDown(100);
+			}
+		})
+	})
+	</script>
+</html>

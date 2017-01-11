@@ -1,0 +1,190 @@
+body{background: #f5f2ec}
+/*发票信息*/
+.invoice .type {height: 2.66rem; background: #fff; border-bottom: 1px solid #e5e9ec;}
+.invoice .type .t { font-size: 0.42rem; color: #ea5a3d; display: inline-block; margin: 0.4rem;  }
+.invoice .type .d { }
+.invoice .type .d a{  font-size: 0.32rem; padding: 0.21rem;  border:1px solid  #868e91; border-radius: 4px; text-align: center; float: left; color: #7f888b}
+.invoice .type .d a.active{ border: 1px solid #ea5a3d; color: #ea5a3d }
+.invoice .header { margin-top: 12px;  background: #fff; border: 1px solid #e5e9ec;border-right: 0px;border-left: 0px}
+.invoice .header .t { font-size: 0.42rem; color: #ea5a3d; display: block; height: 1.06rem;margin-left: 0.4rem;line-height: 1.06rem }
+.invoice .header .d { height: 1.46rem; border-top: 1px solid #e5e9ec; border-bottom: 1px solid #e5e9ec;margin-left: 0.4rem;line-height: 1.46rem}
+.invoice .header .d div a {color: #565656;font-size: 0.293rem;float:left;}
+.invoice .header .d div img{ height: 0.53rem;width: 0.53rem;float:left;margin-top: 0.43rem }
+.invoice .header .b {height: 1.2rem;line-height: 1.2rem;font-size: 0.27rem;color: #565656;margin-left: 0.4rem}
+.invoice .header .b .fr{margin-right: 0.4rem;color: #7f888b;width: 7rem}
+.invoice .header .b .fr input{height: 100%;border: 0px;outline: 0px;font-size: 0.27rem;text-align: right;width: 100%}
+.invoice .info .d {height: 1.2rem;line-height: 1.2rem;font-size: 0.27rem;color: #565656;margin-left: 0.4rem}
+.invoice .info .d .fr{margin-right: 0.4rem;color: #7f888b}
+.invoice .info .d .fr input{height: 100%;border: 0px;outline: 0px;font-size: 0.27rem;text-align: right}
+.invoice .content {height: 2.54rem}
+.invoice .content .t { font-size: 0.42rem; color: #ea5a3d; display: block; height: 1.06rem;margin-left: 0.4rem;line-height: 1.06rem }
+.invoice .footerbtn{height: 1.13rem;line-height: 1.13rem;background: #ea5a3d;width: 100%;position: fixed;text-align: center;color: #fff;font-size: 0.35rem;bottom: 0px;letter-spacing: 2px;z-index: 99}
+.invoice .kong{height: 1.3rem;width: 100%;position: relative;}
+
+/*我的信息*/
+.info{padding-left: 0.4rem;background: #fff;}
+.info .head{height: 2.24rem;line-height: 2.24rem;border-bottom: 1px solid #e5e9ec;position: relative;}
+.info .name{font-size: 0.4rem;color: #565656;}
+.info .text{font-size: 0.4rem;color: #7f888b;margin-right: 1.06rem;}
+.info .head .headImg{height: 1.63rem;width: 1.63rem;border-radius: 999px;overflow: hidden;margin-right: 1.06rem;margin-top: 0.34rem}
+.info .head .righticon img{position: absolute;right: 0.5rem;top: 0.9rem;width: 0.30rem;height: 0.53rem}
+.info .list{height: 1.2rem;line-height: 1.2rem;border-bottom: 1px solid #e5e9ec}
+.info .list input{width: 100%;height: 100%;border: 0px;outline: 0px;text-align: right;color: #7f888b;font-size: 0.4rem}
+
+/*个人中心*/
+.peocenter .header{height: 1.6rem;background: #ea5a3d;padding:0.4rem 0;padding-left: 0.29rem;position: relative;}
+.peocenter .header .headimg{height: 1.62rem;width: 1.62rem;;border:1px solid #fff;}
+.peocenter .header .text{color: #fff;margin-left: 0.26rem;float:left;height: 1.62rem}
+.peocenter .header .text .name{font-size: 0.4rem;margin-top: 0.05rem}
+.peocenter .header .text .del{font-size:0.35rem;margin-top: 0.1rem}
+.peocenter .header .righticon{position: absolute;right: 1.05rem;top: 0.86rem;width: 0.30rem;height: 0.53rem }
+.peocenter .header .line{width: 4.5rem;height: 0.26rem;background: rgba(255,255,255,0.2);border-radius: 0.26rem;margin-top: 0.2rem;position: relative;overflow: hidden;line-height: 0.26rem}
+.peocenter .header .line .line2{height: 100%;width: 0.72rem;background: #fff;position: absolute;left: 0px;top: 0px}
+.peocenter .header .line .text2{color: #fff;font-size: 12px;position: absolute;left: 1rem; top: 0.02rem}
+.peocenter .nav{height: 1.05rem;background: #fff;padding:0.2rem 0;border-bottom: 1px solid #e5e9ec}
+.peocenter .nav li .tt{margin-top: 0.15rem}
+.peocenter .nav li{width: 25%;float:left;text-align: center;color: #7f888b;font-size:0.35rem}
+.peocenter .nav li.waitpay img{width: 0.57rem;height: 0.49rem;}
+.peocenter .nav li.waitget img{width: 0.53rem;height: 0.49rem;}
+.peocenter .nav li.refund img{width: 0.54rem;height: 0.49rem;}
+.peocenter .nav li.order img{width: 0.4rem;height: 0.49rem;}
+.peocenter .toul{margin-top: 0.18rem;border-top: 1px solid #e5e9ec;}
+.peocenter .toul li{border-bottom: 1px solid #e5e9ec;border-right: 1px solid #e5e9ec;height: 2.67rem;width: 3.31rem;float:left;background: #fff;position: relative;}
+.peocenter .toul li:nth-child(3n){border-right: 0px}
+.peocenter .toul li .tt{font-size: 0.3rem;color: #565656;text-align: center;position: absolute;bottom: 0.56rem;width: 100%}
+.peocenter .toul li img{display: block;margin: 0 auto;margin-top: 0.61rem}
+.peocenter .toul li.myIntegral img{height: 0.77rem;width: 0.72rem;}
+.peocenter .toul li.myColl img{width: 0.76rem;height: 0.77rem;}
+.peocenter .toul li.myChat img{width: 0.89rem;height:0.82rem;}
+.peocenter .toul li.myInfo img{height: 0.68rem;width: 0.84rem;}
+.peocenter .toul li.myVolume img{width: 0.76rem;height: 0.76rem;}
+.peocenter .toul li.myVipcenter img{width: 0.81rem;height:0.81rem;}
+.peocenter .toul li.myUsinfo img{height: 0.76rem;width: 0.76rem;}
+.peocenter .toul li.myCpserver img{width: 0.93rem;height: 0.72rem;}
+.peocenter .toul li.logo img{width: 2.33rem;height:0.36rem;margin-top: 0.8rem;}
+
+/*评价列表页*/
+.mychat ul li{padding: 0.53rem 0.32rem;background: #fff;border-bottom: 1px solid #e5e9ec}
+.mychat ul li .img{height: 1.2rem;width: 1.2rem;overflow: hidden}
+.mychat ul li .img img{width: 100%;height: 100%}
+.mychat ul li .text{font-size:0.35rem;color: #565656;width: 7.8rem;margin-left: 0.2rem;margin-top: 0.21rem}
+.mychat ul li .cons{font-size: 0.34rem;color: #565656;margin-top: 0.45rem}
+.mychat ul li .time{color: #7f888b;font-size: 12px;margin-top: 0.15rem}
+
+/*退换款*/
+.refund ul li{background: #fff;border-bottom: 1px solid #e5e9ec;margin-bottom: 8px;padding-top: 0.3rem}
+.refund ul li .img{height: 2.24rem;width: 2.24rem;overflow: hidden;margin-left: 0.3rem}
+.refund ul li .img img{width: 100%;height: 100%}
+.refund ul li .text{width: 7rem;margin-left: 0.2rem;margin-top: 0.3rem}
+.refund ul li .title{color: #565656;font-size:0.35rem;}
+.refund ul li .more{font-size:0.35rem;margin-top:0.25rem;}
+.refund ul li .money{color: #ea5a3d}
+.refund ul li .count{color: #565656}
+.refund ul li .more a{font-size: 0.5rem}
+.refund ul li .remt{margin-top:0.29rem;height: 1.09rem;line-height: 1.09rem;color: #565656;font-size:0.35rem;border-bottom: 1px solid #e5e9ec;border-top: 1px solid #e5e9ec}
+.refund ul li .remt .refundM{margin-left: 0.8rem}
+.refund ul li .remt .refundF {margin-right: 0.3rem}
+.refund ul li .remt .refundY{color: #ea5a3d;margin-left: 0.3rem}
+.refund ul li .remt .refundF span{color: #ea5a3d}
+.refund ul li .f{height: 1.1rem;}
+.refund ul li .f .btn{float:right;margin-right: 0.3rem;border:1px solid #ea5a3d;font-size:0.35rem;padding: 0.2rem;border-radius: 3px;margin-top: 0.13rem;color: #ea5a3d}
+
+/*我的订单*/
+.myorder .nav{text-align: center;font-size:0.35rem;color: #565656;height: 1.09rem;line-height: 1.09rem;border-bottom: 1px solid #e5e9ec;width: 100%;position: fixed;background: #fff;z-index: 999}
+.myorder .nav li{float:left;width: 20%;}
+.myorder .nav li a{line-height: 1.09rem;height: 1.09rem}
+.myorder .nav .active{color: #ea5a3d;border-bottom: 2px solid #ea5a3d;}
+.myorder .kong{height: 1.09rem;width: 100%;position: relative;}
+.myorder ul.list li{background: #fff;border-bottom: 1px solid #e5e9ec;margin-bottom: 8px;padding-top: 0.3rem}
+.myorder ul.list li .img{height: 2.24rem;width: 2.24rem;overflow: hidden;margin-left: 0.3rem}
+.myorder ul.list li .img img{width: 100%;height: 100%}
+.myorder ul.list li .text{width: 7rem;margin-left: 0.2rem;margin-top: 0.3rem}
+.myorder ul.list li .title{color: #565656;font-size:0.35rem;}
+.myorder ul.list li .more{font-size:0.35rem;margin-top:0.25rem;}
+.myorder ul.list li .money{color: #ea5a3d}
+.myorder ul.list li .count{color: #565656}
+.myorder ul.list li .more a{font-size: 0.5rem}
+.myorder ul.list li .remt{margin-top:0.29rem;height: 1.09rem;line-height: 1.09rem;color: #565656;font-size:0.35rem;border-bottom: 1px solid #e5e9ec;border-top: 1px solid #e5e9ec}
+.myorder ul.list li .remt .refundM{margin-right: 0.5rem}
+.myorder ul.list li .remt .refundF {margin-right: 0.3rem}
+.myorder ul.list li .remt .refundY{color: #ea5a3d;margin-left: 0.3rem}
+.myorder ul.list li .remt .refundF span{color: #ea5a3d}
+.myorder ul.list li .f{height: 1.1rem;}
+.myorder ul.list li .f .btn{float:right;margin-right: 0.3rem;border:1px solid #ea5a3d;font-size:0.35rem;padding: 0.15rem;border-radius: 3px;margin-top: 0.15rem;color: #ea5a3d}
+
+/*我的积分*/
+.myIntegral{background: #fff}
+.myIntegral .header{height: 4.21rem;padding-top: 0.56rem;position: relative;}
+.myIntegral .header .bgs{width: 2.72rem;height: 2.08rem;background: #ea5a3d;border-radius: 999px;margin: 0 auto;padding-top: 0.64rem}
+.myIntegral .header .bgs div{color: #fff;position: relative;}
+.myIntegral .header .bgs div.title{font-size: 0.32rem;text-align: center;}
+.myIntegral .header .bgs div.count{font-size: 0.48rem;text-align: center;margin-top: 0.3rem}
+.myIntegral .header .text{font-size:0.24rem;color: #565656;margin-top: 0.3rem;text-align: center;}
+.myIntegral .header .bottomtext{position: absolute;bottom: -0.16rem;font-size:0.24rem;color: #565656;left: 0px;right: 0px;margin: 0 auto;background: #fff;width: 3.38rem;text-align: center;height: 0.32rem;line-height: 0.32rem}
+.myIntegral ul{border-bottom:1px solid #e5e9ec;border-top:1px solid #e5e9ec;}
+.myIntegral ul li.list{height: 1.36rem;padding-top: 0.42rem;margin-left: 0.3rem;margin-right: 0.3rem;border-bottom:1px solid #e5e9ec;}
+.myIntegral ul li:nth-last-child(1){border-bottom: 0px}
+.myIntegral ul li.list .fl{color: #565656;}
+.myIntegral ul li.list .title{font-size: 0.4rem;}
+.myIntegral ul li.list .time{font-size:0.24rem;margin-top: 0.08rem}
+.myIntegral ul li.list .fr{color: #ea5a3d;font-size: 0.4rem;margin-top: 0.2rem}
+.myIntegral .cons{margin-top:0.46rem;padding-bottom: 0.5rem}
+.myIntegral .cons .title{color: #7f888b;font-size: 0.4rem;padding-left: 0.3rem;padding-right: 0.3rem}
+.myIntegral .cons .texts{margin-top: 0.3rem;font-size: 0.3rem;color: #7f888b;padding-left: 0.3rem;padding-right: 0.3rem;text-indent: 0.48rem;line-height: 0.42rem}
+
+/*优惠卷*/
+.myVoume .nav{text-align: center;font-size:0.35rem;color: #565656;height: 1.09rem;line-height: 1.09rem;border-bottom: 1px solid #e5e9ec;width: 100%;position: fixed;background: #fff;z-index: 999}
+.myVoume .nav li{float:left;width: 33.3%}
+
+.myVoume .nav li a{line-height: 1.09rem;height: 1.09rem}
+.myVoume .nav .active{color: #ea5a3d;border-bottom: 2px solid #ea5a3d;}
+.myVoume .kong{height: 1.09rem;width: 100%;position: relative;}
+.myVoume .list li{background: url(../img/bgs.png);background-size: 100% 100%;width: 9.22rem;height: 3.2rem;margin:0 auto;border-bottom: 2px solid #ea5a3d;margin-top: 0.3rem;position: relative;}
+.myVoume .list li .top{height: 1.26rem;position: relative;padding-top: 0.64rem;margin: 0 0.3rem 0 0.3rem}
+.myVoume .list li .top .fl .title{color: #ea5a3d;font-size: 0.34rem;}
+.myVoume .list li .top .fl .time{color: #ea5a3d;font-size:0.24rem;margin-top: 0.1rem}
+.myVoume .list li .top .fr{font-size: 0.32rem;color: #ea5a3d;}
+.myVoume .list li .top .fr a{font-size: 0.8rem;color: #ea5a3d;}
+.myVoume .list li .bottom{color: #7f888b;font-size:0.35rem;text-align: center;line-height: 1.30rem;height: 1.30rem;border-top: 1px dotted #ea5a3d;margin-left: 0.3rem;margin-right: 0.3rem}
+
+
+.myVoume #list3 li .top .fl .title{color: #565656;font-size: 0.34rem;}
+.myVoume #list3 li .top .fl .time{color: #565656;font-size:0.24rem;margin-top: 0.1rem}
+.myVoume #list3 li .top .fr{font-size: 0.32rem;color: #565656;}
+.myVoume #list3 li .top .fr a{font-size: 0.8rem;color: #565656;}
+.myVoume #list3 li{border-bottom: 2px solid #565656}
+.myVoume #list3 li .bottom{color: #7f888b;border-top: 1px dotted #565656;}
+/*我的收藏*/
+
+.myColl .line-wrapper { width: 100%;  overflow: hidden;margin-bottom: 6px}
+.myColl .line-scroll-wrapper { clear: both; height: 2.7rem;border-bottom: 1px solid #e5e9ec;padding-bottom: 0.1rem;background: #fff}
+.myColl .line-btn-delete { float: left; width: 50px;height: 2.8rem }
+.myColl .line-btn-delete button { width: 100%; height: 100%; background: red; border: none; font-size: 12px; font-family: 'Microsoft Yahei'; color: #fff; }
+.myColl .line-normal-wrapper { display: inline-block;  float: left;  padding-top: 0.2rem;}
+.myColl .line-normal-avatar-wrapper { width: 2.24rem; height: 2.24rem; float: left; margin-left: 12px; }
+.myColl .line-normal-avatar-wrapper img { width: 2.24rem; height: 2.24rem; }
+.myColl .line-normal-left-wrapper { float: left; overflow: hidden; }
+.myColl .line-normal-info-wrapper { float: left; margin-left: 0.2rem; width: 7.2rem}
+.myColl .line-normal-user-name {  color: #565656; margin-top: 0.16rem; font-size:0.35rem}
+.myColl .line-normal-user-rem {color: #e1e1e1;font-size:0.24rem;margin-top: 0.21rem}
+.myColl .line-normal-user-money .fl{color: #ea5a3d;font-size:0.35rem;margin-top: 0.2rem}
+.myColl .line-normal-user-money .fl a{font-size: 0.4rem;}
+.myColl .line-normal-user-money .fr{width: 1.94rem;height: 0.64rem;line-height: 0.64rem;font-size:0.35rem;color: #fff;text-align:center;background: #ea5a3d;border-radius: 4px;margin-top: 0.12rem;}
+
+/*我的评价*/
+.myChat2 .head {padding:0.4rem 0.28rem;border-bottom: 1px solid #e5e9ec;background: #fff;}
+.myChat2 .head .img{height: 2.24rem;width: 2.24rem;}
+.myChat2 .head .img img{width: 100%;height: 100%;}
+.myChat2 .head .right {margin-left: 0.2rem;width: 6.8rem}
+.myChat2 .head .right .title{color: #565656;font-size: 0.35rem;margin-top: 0.26rem;}
+.myChat2 .head .right .goodbad{margin-top: 0.28rem;height: 0.60rem;line-height: 0.50rem;}
+.myChat2 .head .right .goodbad img{width: 0.50rem;height: 0.50rem;margin-right: 0.05rem}
+.myChat2 .cons{padding:0.4rem 0.28rem;background: #fff}
+.myChat2 .cons textarea{width: 100%;outline: 0;border: 0px;min-height: 2.53rem}
+.myChat2 .f {background: #fff; padding:0.4rem 0.28rem;border-top: 1px solid #e5e9ec}
+.myChat2 .f .list{height: 0.8rem}
+.myChat2 .f .name{font-size: 0.32rem;color: #565656;width: 3.25rem;line-height: 0.75rem}
+.myChat2 .f .goodbad{height: 0.60rem;line-height: 0.50rem}
+.myChat2 .f .goodbad img{width: 0.50rem;height: 0.50rem;margin-right: 0.05rem}
+.myChat2 .kong{height: 1.3rem;position: relative;}
+.myChat2 .footer{background: #ea5a3d;height: 1.13rem;line-height: 1.13rem;position: fixed;bottom: 0px;width: 100%;text-align: center;color: #fff;font-size:0.35rem;z-index: 99;letter-spacing: 1px}

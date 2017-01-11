@@ -1,0 +1,120 @@
+﻿.top{height:51pt;padding-bottom: 0}
+.top .title .logo{background-image: url(../img/logotitle.png);height: 27pt;width: 84pt;float: left;}
+a{text-decoration: none;color: inherit;}
+
+.down{background: #efefef;width: 100%;padding-top: 40pt}
+.down .content .title{width: 743pt;margin: 0 auto;text-align: center;margin-bottom:14pt;}
+.down .content .title .titleicon{background: url(../img/icon.png);background-position:-449px -128px;width:34px;height:37px;float:left;}
+.down .content .title a{font-size: 18pt;color: #b5241d;float:left;font-family: FZLTZHK;margin-top:4px;}
+.down .content .title .titlesmall{margin-top: 25px;text-align: left;font-size: 18px;color: #9fa0a0}
+.down .content .title .titlesmalltitle{float:left;font-family: FZLTZHK}
+.down .content .title .titlesmall .right{float:right;}
+.down .content .title .titlesmall .right .share{width: 80pt;text-align: center;height: 24pt;line-height: 24pt;background: #fafafa;border-radius: 10px;border:1px solid #c9caca;float:left;}
+.down .content .title .titlesmall .right .share:hover{background: #fff;cursor: pointer;}
+.down .content .title .titlesmall .right .share .shareicon{background: url(../img/icon.png);background-position:-341px -16px;width:15pt;height:15pt;float:left;margin-top: 7px;margin-left:13px;}
+.down .content .title .titlesmall .right .share .text{float:left;margin-left:11px;font-family: FZLTZHK;font-size: 12pt}
+.down .content .title .titlesmall .right .addbutton{background: #b5241d;color: #fff;width: 80pt;text-align: center;height: 24pt;line-height: 24pt;border-radius: 10px;float:left;margin-left: 10px;cursor: pointer;}
+.down .content .title .titlesmall .right .addbutton a{color: #fff;margin-left:10px;font-size:12pt;font-family: FZLTZHK;margin-top:0;}
+.down .content .title .titlesmall .right ul {float:left;margin-left:10px;}
+.down .content .title .titlesmall .right ul li{padding: 9px 20px;float:left;border: 1px solid #c9caca;background: #fafafa;border-radius: 0px 10px 10px 0px;cursor: pointer;}
+.down .content .title .titlesmall .right ul li:hover{background:#fff;}
+.down .content .title .titlesmall .right ul li.active{border-radius: 10px 0 0 10px;background: #c9caca;color: #fff;cursor: auto;}
+.down .content .title .titlesmall .right ul li div{float:left;}
+.down .content .title .titlesmall .right ul li div.text{margin-left:20px;}
+.down .content .title .titlesmall .right ul li .zhoushitu{background: url(../img/icon.png);background-position:-131px -238px;width:27px;height:29px;}
+.down .content .title .titlesmall .right ul li .mouthshitu{background: url(../img/icon.png);background-position:-164px -237px;width:32px;height:29px;}
+
+
+.down .content{margin: 0 auto;width: 798pt;padding-bottom: 86px}
+.down .content .toul{float:left;}
+.down .content .toul ul li{width:38pt;height:38pt;cursor: pointer;}
+.down .content .toul ul li span{display: none}
+.down .content .toul ul li.yanyuan{background: url(../img/bs01.png)}
+.down .content .toul ul li.canalar{background: url(../img/bs02.png)}
+.down .content .toul ul li.notetext{background: url(../img/bs03.png)}
+.down .content .toul ul li.task{background: url(../img/bs4.png)}
+.down .content .toul ul li.contants{background: url(../img/bs05.png)}
+.down .content .toul ul li.cloud{background: url(../img/bs06.png)}
+.down .content .toul ul li.delete{background: url(../img/bs07.png)}
+.down .content .toul ul li.question{background: url(../img/light1.png);width: 30.72pt;height: 30.72pt;margin-left:7px;margin-top:20px;}
+
+.down .content .toul ul li.yanyuan2{background-image: url(../img/bs1.png)}
+.down .content .toul ul li.canalar2{background-image: url(../img/bs2.png)}
+.down .content .toul ul li.notetext2{background-image: url(../img/bs3.png)}
+.down .content .toul ul li.task2{background-image: url(../img/bs4.png)}
+.down .content .toul ul li.contants2{background-image: url(../img/bs5.png)}
+.down .content .toul ul li.cloud2{background-image: url(../img/bs6.png)}
+.down .content .toul ul li.delete2{background-image: url(../img/bs7.png)}
+.down .content .toul ul li.question2{background-image: url(../img/light.png);width: 30.72pt;height: 30.72pt;margin-left:7px;margin-top:20px;}
+
+
+.down .content .contents{float:left;margin-left: 17px}
+.down .content #uls li{background: #fff;width: 742.843pt;padding-bottom: 15px;margin-bottom: 25px}
+.down .content #uls li .ulstitle .name{float:left;margin-top:12px;margin-left:20px;}
+.down .content #uls li .ulstitle .name .bg{width: 60px;height: 26px;line-height: 26px;text-align: center;background: #d0d0d0;color: #fff;font-size: 9.6pt;float:left;margin-right: 30px;font-family: FZLTZHK}
+.down .content #uls li .ulstitle .name .text{font-size: 18pt;color: #000;float: left;margin-top:0px;font-family: FZLTZHK}
+.down .content #uls li .ulstitle .control{float: right;margin-right:30px;margin-top:10px;}
+
+.down .content #uls li .ulstitle .control .shareicon{background: url(../img/icon.png);background-position:-341px -16px;width:15pt;height:15pt;border: 1px solid #ddd ;float:left;margin-right:8px;cursor: pointer;}
+.down .content #uls li .ulstitle .control .update{background: url(../img/icon.png);background-position:-287px -62px;width:15pt;height:15pt;border: 1px solid #ddd ;float:left;margin-right:8px;cursor: pointer;}
+.down .content #uls li .ulstitle .control .remove{background: url(../img/icon.png);background-position:-310px -62px;width:15pt;height:15pt;border: 1px solid #ddd ;float: left;margin-right:8px;cursor: pointer;}
+.down .content #uls li .conl{font-size: 12pt;color: #898989;margin-left:20px;margin-right: 30px;line-height: 24px;margin-top: 30px}
+.down .content #uls li .don{margin-top: 36px;margin-left:20px;}
+.down .content #uls li .don .dontitle{font-size: 10pt;color: #b5241d;float:left;margin-top: 16px;margin-right: 12px}
+.down .content #uls li .don .img{height: 50px;width: 50px;background:#e8e8e8;border-radius: 50px;float:left;}
+.down .content #uls li .don .img img{height: 48px;width: 48px;background:#e8e8e8;border-radius: 48px;margin-left: 1px;margin-top: 1px}
+.down .content #uls li .don .dontext{font-size: 14pt;color: #727171;float:left;margin-top: 12px;margin-left: 10px}
+.down .content #uls li .don .button{float: right;margin-right: 30px}
+.down .content #uls li .don .button .all{width: 100px;height: 32px;line-height: 32px;text-align: center;font-size: 16px;color: #898989;float:left;margin-right: 10px;border: 1px solid #dcdddd;border-radius: 8px}
+.down .content #uls li .don .button .all a{font-size: 12pt}
+.down .content #uls li .don .button .updown{width: 100px;height: 32px;line-height: 32px;text-align: center;font-size: 16px;color: #898989;float:left;margin-right: 10px;border: 1px solid #dcdddd;border-radius: 8px}
+.toulbgtext{background-image: url(../img/icon.png);background-position:-190px -51px;width:64pt;height:30pt;text-align: center;line-height: 30pt;color: #fff;text-align: center;font-size: 10pt;position: absolute;display: none}
+
+
+
+.shareitem{width: 100%;height: 100%;background: rgba(0,0,0,0.7);position: absolute;left: 0px;top: 0px;;display: none;opacity: 0;z-index: 99;}
+.shareitem .content{width:503pt;position: absolute;border-top: 5px solid #ea433b;background: #f7f8f8;padding-left: 70px;padding-right: 70px;padding-bottom: 30px;height:402.538pt;}
+.shareitem .content .title{margin-top:50px;color: #000;font-size: 16pt;font-family: FZLTZHK}
+.shareitem .content .input{margin-top:30px;width: 100%;border: 2px solid #cccccc;font-size:20px;text-indent: 12px;border-radius: 6px;height:44px;line-height: 44px}
+.shareitem .content .text{margin-top: 12px;}
+.shareitem .content .text .texttitle{float:left;margin-right:15px;font-size: 10pt;color: #999}
+.shareitem .content .text strong,.shareitem .content .text a{float:left;font-size: 10pt}
+.shareitem .content .text a{margin-right:5px;margin-left:5px;}
+.shareitem .content .text a:hover{color: #b5241d;cursor: pointer;}
+.shareitem .content .text .more{float:right;cursor: pointer;}
+.shareitem .content .text .more a{color: #933232}
+.shareitem .content .text .more .moreicon{background-image: url(../img/icon.png);background-position:-110px -92px;width:16px;height:11px;float:right;}
+.shareitem .content .col{margin-top: 21pt;}
+.shareitem .content .col ul{width: 100%;overflow-y:auto;border-bottom:1px solid #dedfdf;height: 304px;max-height: 304px}
+.shareitem .content .col ul li{border: 1px solid #dedfdf;padding-bottom: 20px;border-bottom: 0}
+.shareitem .content .col ul li .title{margin-top:28px;margin-left: 24px}
+.shareitem .content .col ul li .title .titletext{color: #595757;font-size: 16pt;float:left;font-family: FZLTZHK}
+.shareitem .content .col ul li .title .geticon{float:right;background-image: url(../img/icon.png);background-position:-161px -91px;width:16px;height:16px;margin-right:30px;margin-top: 6px}
+.shareitem .content .col ul li .colcontent{font-size: 10pt;color: #898989;margin-left:20px;margin-right: 30px;line-height: 24px;margin-top: 30px}
+.shareitem .content .button{margin-top: 16px;}
+.shareitem .content .ready{background: #b5241d;color: #fff;font-size: 12.6pt;text-align: center;height: 26pt;line-height: 26pt;width: 64pt;border-radius: 6px;float:left;cursor: pointer;margin-left:220px;}
+.shareitem .content .ready:hover{background: #ff8382}
+.shareitem .content .closed{background: #efefef;color: #000;font-size: 12.6pt;text-align: center;height: 26pt;line-height: 26pt;width: 64pt;border-radius: 6px;float:left;box-shadow: 2px 2px 1px #ddd;margin-left:10px;cursor: pointer;}
+.shareitem .content .closed:hover{background: #ddd}
+.shareitem .content .allget{float:right;margin-top: 14px;cursor: pointer;}
+.shareitem .content .allget a{font-size: 12pt;margin-right:5px;}
+.shareitem .content .allget .allgeticon{background-image: url(../img/icon.png);background-position:-161px -91px;width:16px;height:16px;float: right;}
+.shareitem .content .allget .allgeticon2{background-image: url(../img/icon.png);background-position:-166px -64px;width:16px;height:16px;float: right;}
+.shareitem .content .shareclose{background-image: url(../img/icon.png);background-position:-183px -23px;width:10px;height:10px;position: absolute;right: 10px;top: 5px;cursor: pointer;}
+
+.additem{width: 100%;height: 100%;background: rgba(0,0,0,0.7);position: absolute;left: 0px;top: 0px;display: none;opacity: 0;z-index: 99}
+.additem .content{width:600px;position: absolute;border-top: 5px solid #ea433b;background: #f7f8f8;padding-left: 70px;padding-right: 70px;padding-bottom: 30px}
+.additem .content .title{margin-top:50px;color: #000;font-size: 16pt;font-family: FZLTZHK}
+.additem .content textarea{color: #898989;font-size: 10pt;text-indent: 12px;width: 600px;max-width: 600px;min-width: 600px;min-height: 160px;max-height: 160px;height: 160px;margin-top:24px;background:#f7f8f8;padding-top: 30px;line-height: 24px;padding-left: 20px;padding-right: 20px;font-family: sas}
+.additem .content .button{margin-top: 16px;}
+.additem .content .ready{background: #b5241d;color: #fff;font-size: 12.6pt;text-align: center;height: 26pt;line-height: 26pt;width: 64pt;border-radius: 6px;float:left;cursor: pointer;margin-left:220px;}
+.additem .content .ready:hover{background: #ff8382}
+.additem .content .closed{background: #efefef;color: #000;font-size: 12.6pt;text-align: center;height: 26pt;line-height: 26pt;width: 64pt;border-radius: 6px;float:left;box-shadow: 2px 2px 1px #ddd;margin-left:10px;cursor: pointer;}
+.additem .content .closed:hover{background: #ddd}
+
+.additem .content .shareclose{background-image: url(../img/icon.png);background-position:-183px -23px;width:10px;height:10px;position: absolute;right: 10px;top: 5px;cursor: pointer;}
+
+.buttoninput {width: 100%;height:30.016pt;font-size: 14pt;float:left;border: 1px solid #ea433b;text-indent: 20px;float:left;background:#fff;text-align:left;color:#999;margin-top: 12px;line-height: 30.016pt;margin-bottom: 14px;font-size: 22px}
+.shareitem .content .text{}
+.inputbutton{opacity: 1;margin-top: 6px;margin-left: 5px}
+.inputbuttona{opacity: 0}

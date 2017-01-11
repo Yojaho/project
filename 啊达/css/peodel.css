@@ -1,0 +1,102 @@
+.top{height:51pt;padding-bottom: 0}
+.top .title .logo{background-image: url(../img/logotitle.png);height: 27pt;width: 84pt;float: left;}
+
+
+.down{background: #efefef;padding-top:30px;padding-bottom: 60px}
+.down .bg{background: url(../img/bg.png);width: 745pt;height: 210pt;margin: 0 auto;text-align: center;position: relative;}
+.down .bg .left{position: absolute;bottom: -35pt;float:left;background:#d0d0d0;width: 100pt;height: 100pt;border-radius: 200px;left:60px;}
+.down .bg .left .headid{background-image: url(../img/6.png);width: 100pt;height: 100pt;border-radius: 190px;}
+.down .bg .right{position: absolute;bottom:-35px;}
+.down .bg .right .rtop .text{font-size: 21pt;color: #fff;float:left;margin-left:150pt;margin-top: 5px}
+.down .bg .right .rtop .rtopicon{background-image: url(../img/icon.png);background-position:-369px -248px;width:35px;height:35px;float:left;margin-left:10px;margin-top:4px;}
+.down .bg .right .rdown{margin-top: 32px;margin-left: 150pt;}
+.down .bg .right .rdown li{float:left;color: #b5241d;margin-right:50pt;cursor: pointer;font-size: 12pt;}
+.down .bg .right .rdown li:hover{border-bottom:1px solid #b5241d;padding-bottom: 3px;}
+.down .bg .right .rdown li.active{border-bottom:1px solid #b5241d;padding-bottom: 3px;}
+
+.down .bg .right .rightbutton{position: absolute;right:0px;bottom:60px;}
+.down .bg .right .rightbutton .share{width: 118px;text-align: center;height: 40px;line-height: 40px;background: #fafafa;border-radius: 10px;border:1px solid #c9caca;float:left;margin-left: 10px;}
+.down .bg .right .rightbutton .share:hover{background: #fff;cursor: pointer;}
+.down .bg .right .rightbutton .share .shareicon{background: url(../img/icon.png);background-position:-341px -16px;width:14pt;height:15pt;float:left;margin-top: 10px;margin-left: 23px;}
+.down .bg .right .rightbutton .share .text{float:left;margin-left:15px;font-size:12pt;}
+.down .bg .right .rightbutton .addbutton{background: #b5241d;color: #fff;width: 168px;text-align: center;height: 42px;line-height: 42px;border-radius: 10px;float:left;cursor: pointer;}
+.down .bg .right .rightbutton .addbutton a{color: #fff;margin-left:11px;font-size:12pt;float:left;}
+
+.down .two{background: #fff;width:  715pt; height: 165pt; margin: 0 auto;text-align: center;margin-top: 45px;padding-left: 35pt;padding-right: 0pt;padding-top: 20pt;}
+.down .two .title{width: 80pt;height: 20pt;line-height: 20pt;color: #fff;background: #d0d0d0;text-align: center;}
+.down .two ul{padding-left:24px;margin-top:36px;}
+.down .two ul li{border-bottom: 1px solid #898989;padding-bottom: 3px;width: 160pt;float: left;margin-right:70pt;margin-bottom: 30px;}
+.down .two ul li .titlename{float:left;color: #898989;font-size: 11pt;}
+.down .two ul li .text{float:right;color: #595757;font-size: 11pt;}
+
+.down .three{background: #fff;width: 695pt;margin: 0 auto;text-align: center;margin-top: 30px;padding-left: 73px;padding-top: 32px;padding-bottom: 20px;}
+.down .three .title{width: 80pt;height: 20pt;line-height: 20pt;color: #fff;background: #d0d0d0;text-align: center;}
+.down .three ul{padding-left:24px;margin-top:36px;}
+.down .three ul li{border-bottom: 1px solid #898989;padding-bottom: 3px;width: 41%;float: left;margin-right:80px;margin-bottom: 30px;}
+.down .three ul li .titlename{float:left;color: #898989;font-size: 11pt;}
+.down .three ul li .text{float:right;color: #595757;font-size: 11pt;}
+
+.down .forth{background: #fff;width: 695pt;margin: 0 auto;text-align: center;margin-top: 30px;padding-left: 73px;padding-top: 32px;padding-bottom: 30px;}
+.down .forth .title{width: 80pt;height: 20pt;line-height: 20pt;color: #fff;background: #d0d0d0;text-align: center}
+.down .forth ul{padding-left:24px;margin-top:36px; width:695pt; height:95pt;margin-bottom: 30px}
+.down .forth ul li{width: 95pt;float: left;margin-right:15pt;}
+.down .forth ul li img{width: 95pt;height: 95pt;cursor: pointer;}
+.down .forth .more{height: 20pt;line-height: 20pt;width: 200pt; background: #efefef;color: #b5b5b6; margin: 0 auto;text-align: center;cursor: pointer;}
+
+.down .fivth{background: #fff;width: 695pt;margin: 0 auto;text-align: center;margin-top: 30px;padding-left: 73px;padding-top: 32px;padding-bottom: 50px}
+.down .fivth .title{width: 80pt;height: 20pt;line-height: 20pt;color: #fff;background: #d0d0d0;text-align: center}
+.down .fivth .evdio{background: url(../img/evdio.png);height: 395pt;width: 655pt;margin-top:30px;cursor: pointer;}
+
+.down .six{background: #fff;width: 695pt;margin: 0 auto;text-align: center;margin-top: 30px;padding-left: 73px;padding-top: 32px;padding-bottom: 20px}
+.down .six .title{width: 80pt;height: 20pt;line-height: 20pt;color: #fff;background: #d0d0d0;text-align: center;font-size: 12pt;}
+.down .six ul{padding-left:24px;margin-top:36px;padding-right: 80px}
+.down .six ul li{width: 100%;margin-bottom: 30px;text-align: left;border-bottom:1px solid #898989;padding-bottom: 30px;}
+.down .six ul li .listtitile{color: #595757;font-size: 12pt;}
+.down .six ul li .listtext{color: #b5b5b6;font-size: 10pt;margin-top:5px;}
+
+.down .seven{background: #fff;width: 695pt;margin: 0 auto;text-align: center;margin-top: 30px;padding-left: 73px;padding-top: 32px;padding-bottom: 30px}
+.down .seven .title{width: 80pt;height: 20pt;line-height: 20pt;color: #fff;background: #d0d0d0;text-align: center}
+.down .seven .col{height: 190pt;width: 660pt;background: url(../img/col1.png);margin-top:20px;}
+
+.shareitem{width: 100%;height: 100%;background: rgba(0,0,0,0.7);position: absolute;left: 0px;top: 0px;;display: none;opacity: 0;z-index: 99;}
+.shareitem .content{width:503pt;position: absolute;border-top: 5px solid #ea433b;background: #f7f8f8;padding-left: 70px;padding-right: 70px;padding-bottom: 30px;height:402.538pt;}
+.shareitem .content .title{margin-top:50px;color: #000;font-size: 16pt;font-family: FZLTZHK}
+.shareitem .content .input{margin-top:30px;width: 100%;border: 2px solid #cccccc;font-size:20px;text-indent: 12px;border-radius: 6px;height:44px;line-height: 44px}
+.shareitem .content .text{margin-top: 12px;}
+.shareitem .content .text .texttitle{float:left;margin-right:15px;font-size: 10pt;color: #999}
+.shareitem .content .text strong,.shareitem .content .text a{float:left;font-size: 10pt}
+.shareitem .content .text a{margin-right:5px;margin-left:5px;}
+.shareitem .content .text a:hover{color: #b5241d;cursor: pointer;}
+.shareitem .content .text .more{float:right;cursor: pointer;}
+.shareitem .content .text .more a{color: #933232}
+.shareitem .content .text .more .moreicon{background-image: url(../img/icon.png);background-position:-110px -92px;width:16px;height:11px;float:right;}
+.shareitem .content .col{margin-top: 21pt;border: 1px solid #dcdddd;padding-left: 30px;padding-bottom: 30px}
+.shareitem .content .col ul{width: 100%;max-height: 420px;overflow-y:auto;}
+.shareitem .content .col ul li{list-style: none;float:left;width: 20%;margin-top:20px;}
+.shareitem .content .col ul div.list{background: #d7d7d7;width: 60pt;height: 60pt;border-radius: 60pt;position: relative;}
+.shareitem .content .col ul div.list .change{background-image: url(../img/icon.png);background-position:-161px -91px;width:16px;height:16px;position: absolute;right:0px;top:10px;}
+.shareitem .content .col ul div.list .change2{background-image: url(../img/icon.png);background-position:-166px -64px;width:16px;height:16px;position: absolute;right:0px;top:10px;}
+.shareitem .content .col ul div.list .border{height: 58pt;width: 58pt;border-radius: 58pt;background: #fff;position: absolute;left:1px;top:1px;}
+.shareitem .content .col ul div.list .border .img{height:55pt;width: 55pt;border-radius: 55pt;margin-top:2px;margin-left:2px;background: no-repeat;}
+.shareitem .content .col ul div.list .border .img .bg{background: rgba(234,67,59,0.5);height:55pt;width: 55pt;border-radius: 55pt;display: none;cursor: pointer;font-size:24px;color: #fff;text-align: center;line-height: 55pt}
+.shareitem .content .col ul div.listdown{width: 60pt;text-align: center;margin-top: 5px;}
+.shareitem .content .col ul div.listdown .name{color: #595757;font-size: 9.24pt;font-family: FZLTZHK}
+.shareitem .content .col ul div.listdown .del{color: #b5b5b6;font-size: 7.26pt;margin-top: 2px;margin-top: 5px}
+.shareitem .content .button{margin-top: 16px;}
+.shareitem .content .ready{background: #b5241d;color: #fff;font-size: 12.6pt;text-align: center;height: 26pt;line-height: 26pt;width: 64pt;border-radius: 6px;float:left;cursor: pointer;margin-left:220px;}
+.shareitem .content .ready:hover{background: #ff8382}
+.shareitem .content .closed{background: #efefef;color: #000;font-size: 12.6pt;text-align: center;height: 26pt;line-height: 26pt;width: 64pt;border-radius: 6px;float:left;box-shadow: 2px 2px 1px #ddd;margin-left:10px;cursor: pointer;}
+.shareitem .content .closed:hover{background: #ddd}
+.shareitem .content .allget{float:right;margin-top: 14px;cursor: pointer;}
+.shareitem .content .allget a{font-size: 12pt;margin-right:5px;}
+.shareitem .content .allget .allgeticon{background-image: url(../img/icon.png);background-position:-161px -91px;width:16px;height:16px;float: right;}
+.shareitem .content .allget .allgeticon2{background-image: url(../img/icon.png);background-position:-166px -64px;width:16px;height:16px;float: right;}
+.shareitem .content .shareclose{background-image: url(../img/icon.png);background-position:-183px -23px;width:10px;height:10px;position: absolute;right: 10px;top: 5px;cursor: pointer;}
+
+
+
+
+.buttoninput {width: 100%;height:30.016pt;font-size: 14pt;float:left;border: 1px solid #ea433b;text-indent: 20px;float:left;background:#fff;text-align:left;color:#999;margin-top: 12px;line-height: 30.016pt;margin-bottom: 14px;font-size: 22px}
+.shareitem .content .text{}
+.inputbutton{opacity: 1;margin-top: 6px;margin-left: 5px}
+.inputbuttona{opacity: 0}

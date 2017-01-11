@@ -1,0 +1,68 @@
+* { padding: 0px; margin:0;}
+body,html { height: 100%; width: 100%; font-size: 16px; font-family:FZHTJW; background-color: #f0f0f0;}
+.fl { float: left;}
+.fr { float: right;}
+.clear { clear: both;}
+
+/*头部*/
+.header{ width: 100%; height: 45px; background-color: #30b16f; text-align: center;}
+.header_left{ height: 45px; width: 90px; float:left;}
+.head_icon{ float: left; width: 21px; height: 21px; margin-top: 12px; margin-left: 20px;}
+.head_icon2{ float: right; width: 21px; height: 21px; margin-top: 12px; margin-right: 20px;}
+.head_font{ width:calc(100% - 180px); float: left; color: #ffffff; font-size: 16px; line-height: 45px;}
+.header_right{float: right; height: 45px; width: 90px;}
+.content{ width: 100%; height: auto; min-height: calc(100% - 45px); text-align: center;}
+
+/*tada数据*/
+.kong_t { width: 100%; height: 79px; text-align: center;}
+.kong_t1 { background: url(../images/kong_t1.png); background-size:100% 100%; height: 50px; width: calc(100% - 20px); margin: 10px auto; }
+.kong_t2 { background: url(../images/kong_t2.png); background-size:100% 100%; height: 50px; width: calc(100% - 20px); margin: 10px auto; }
+.baoc{ border: 0px; width: calc(100% - 20px); min-width: 200px; height: 45px; font-size: 18px; color: #FFFFFF; text-align: center; line-height: 45px; margin-top: 30px; background-color: #30B16F; border-radius: 5px; }
+.kong_t .z1{color: #999999; margin-top: 35px; float: left; width: calc(100% - 0%);}
+.zt1{color: #ffffff; font-size: 18px; width: calc(100% - 70%); text-align: center; line-height: 50px; float: left;}
+.zt2{color: #999999; font-size: 18px; width: calc(100% - 70%); text-align: center; line-height: 50px; float: left;}
+.zt3{color: #000000; font-size: 18px; width: calc(100% - 70%);  margin-right: 10px; line-height: 50px;}
+
+
+/*Presentation报告*/
+.pr_content{ width: 100%; height: auto; min-height: calc(100% - 45px); background-color: #FFFFFF;}
+.P_cent{ width: 100%;  height: 55px; position: relative; border-bottom: 1px solid #d0d0d0; }
+.P_cent .z1{color: #000000; font-size: 16px; margin-left: 20px; width: calc(100% - 20px); text-align: left; margin-top: 10px; float: left;}
+.P_cent .z2{color: #999999; font-size: 14px; margin-left: 20px; width: calc(100% - 20px); text-align: left; margin-top: 2px; float: left;}
+
+
+/*friends亲朋*/
+.top31{ margin-left: -20%; width: 6%; margin-top: 4%; }
+.top32{ margin-right: 26%; width: 24%;  margin-top: 4%;}
+.top33{ margin-right: 5%; width: 6%; margin-top: 4%; }
+.F_cent{ text-align: center;width: calc((100% - 30px)/2);  height: 42vw; background-color: #FFFFFF; border-radius: 5px; box-shadow: 0px 0px 6px #d0d0d0; margin-left: 10px; margin-top: 10px; float: left; }
+.tx{ width: 60%;  background-size:100% 100%; position: relative; margin-right: 20%; margin-top: 15px; }
+.qx{ width: 60%;  height: 30px; background-size:100% 100%; position: relative; margin-right: 20%; margin-top: -30px; }
+.Fz{ color: #e5733a; font-size: 15px; width: 100%; margin-top: 10px; float: left; }
+.jg2{ width: 100%;  height: 100%; position: fixed; top: 0px; background-color:#7d7d7d; filter:alpha(opacity=30); -moz-opacity:0.3; opacity:0.3; display: none;}
+.jgcent2{ border-radius:5px ; width: 269px; height: 120px; box-shadow: 0px 0px 6px #d0d0d0; position: fixed; top: 35%; left: calc((100% - 269px)/2); background-color: #FFFFFF; display: none;}
+.jgcent2_head{ width: 269px; height: 69px; border-bottom: 1px solid #d4d4d4; float: left; line-height: 69px;}
+.xqx{ width: 134px; color: #30B16F; font-size: 16px; height: 50px; line-height: 50px; border: 0px; float: left; background-color: #FFFFFF; border-right: 1px solid #d4d4d4;}
+.xqd{ width: 134px; color: #30B16F; font-size: 16px; height: 50px; line-height: 50px; border: 0px; float: left; background-color: #FFFFFF;}
+
+
+/*Result结果*/
+.jg{ width: 100%;  height: 100%; position: fixed; top: 0px; background-color:#7d7d7d; filter:alpha(opacity=30); -moz-opacity:0.3; opacity:0.3;}
+.jgcent{ width: calc(100% - 60px);  height: 315px; position: fixed; top: 20%; left: 30px; background-color: #FFFFFF; border-radius: 5px; box-shadow: 0px 0px 6px #d0d0d0;}
+.jgcent_head{ width: 100%; height: 35px; background-color: #30B16F; border-radius: 5px 5px 0px 0px; line-height: 35px; color: #FFFFFF;}
+.xiaot { background: url(../images/xiaot.png); background-size:100% 100%; height: 35px; width: calc(100% - 60px); margin: 15px 30px 0px 30px; }
+.xiaot2 { background: url(../images/xiaot2.png); background-size:100% 100%; height: 35px; width: calc(100% - 60px); margin: 15px 30px 0px 30px; }
+.xiaot3 { background: url(../images/xiaot.png); background-size:100% 100%; height: 35px; width: calc(100% - 60px); margin: 15px 30px 0px 30px; }
+.xiaot4 { height: 35px; width: calc(100% - 60px); margin: 15px 30px 0px 30px; text-align: left;}
+.xiaot5 { border: 0px; color: #FFFFFF; border-radius: 5px; background-color: #30B16F; height: 40px; width: calc(100% - 60px); margin: 15px 30px 0px 30px; }
+.zzt1{color: #ffffff; font-size: 16px; line-height: 35px; float: left; width: calc(100% - 70%); text-align: center;}
+.zzt2{color: #999999; font-size: 16px; line-height: 35px; float: left; width: calc(100% - 70%); text-align: center;}
+.zzt3{color: #000000; font-size: 16px; line-height: 35px; width: calc(100% - 69%);}
+.zzt5{color: #000000; font-size: 16px; line-height: 35px; float: left; width: calc(100% - 50%);}
+.zzt6{color: #2466eb; font-size: 16px; line-height: 35px; float: left; width: calc(100% - 60%);}
+
+
+
+
+
+

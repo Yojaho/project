@@ -1,0 +1,208 @@
+<html>
+	<head>
+		<title>个人预约</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/yue.css" >
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+	       <script>
+                 $(function(){
+                      $(".cread i").click(function(){
+                             if($(this).hasClass("active")){
+                                  $(this).removeClass("active");
+                                  $(this).next().removeClass("active");
+                             }else{
+                                  $(this).addClass("active"); 
+                                  $(this).next().addClass("active"); 
+                             }
+                      })
+
+                     $(".downup").click(function(){
+                           var _down =$(this).find("img").attr("src");
+                           if(_down =="../img/downup-icon.png"){
+                               $(this).prev().show();
+                               $(this).find("img")[0].src="../img/updown-icon.png";
+                           }else{
+                              $(this).prev().hide();
+                              $(this).find("img")[0].src="../img/downup-icon.png";
+                           }
+                     })
+
+                 });         
+              </script>
+	
+	</head>
+	<body>
+		<section class='myappoint' id="myappoint">
+              <ul class="appoUl appodet">
+              	 <li>
+              	 	<div class="proimg">
+              	 		 <img src="../img/pro4.png" alt="">
+              	 	</div>
+              	 	<div class="procon ">
+              	 		<div class="prodet fl">
+              	 			<p class="tit">中医推拿中医推拿中医推拿</p>
+              	 			<p class="txt"><span class="money">￥<a class="yuan">129</a>元</span><img src="../img/time-icon.png" class="timeicon" alt=""><span class="time">45分钟</span></p>
+              	 		</div>
+              	 		<div class="clear"></div>
+              	 	</div>
+              	 </li>
+              </ul>	
+              <ul class="conUl">
+              	  <li>
+              	  	  <div class="ctit"><i class="shu"></i>服务内容</div>
+              	  	  <p class="csmtit">项目功效</p>
+              	  	  <p class="cint">
+              	  	  	   运用推、拿、按、摩、揉、捏、点、拍等形式多样的手法，疏通经络、推行气血、扶伤止痛、祛邪扶正、调和阴阳的疗效。
+              	  	  </p>
+              	  	  <dl class="ceffct">
+              	  	  	<dd>
+              	  	  		<i class="dian"></i><span class="fcon">缓解全身各部位的无力、酸胀、疼痛等不适症状，如头痛失眠、</span><div class="clear"></div>
+              	  	  	</dd>
+              	  	  	<dd>
+              	  	  		<i class="dian"></i><span class="fcon"> 颈椎僵硬、肩周炎、腰背疼痛等； </span><div class="clear"></div>
+              	  	  	</dd>
+              	  	  	<dd>
+              	  	  		<i class="dian"></i><span class="fcon">缓解脏腑不适，改善脏腑功能，如肠胃不适、感冒、痛经等； 
+													      具有放松身心、缓解疲劳、增添活力的作用，可以强身健体、
+													      预防疾病。 </span><div class="clear"></div>
+              	  	  	</dd>
+              	  	  </dl>
+                              <div class="conhide">
+                                   <p class="csmtit">适应人群</p>
+                                     <p class="cint">
+                                         所有非禁忌人群（请仔细阅读禁忌症状）
+                                     </p>     
+                                     <p class="csmtit">操作流程</p>
+                                     <p class="cint">
+                                         具体以症状、推拿师手法为主
+                                     </p>    
+                                      <p class="csmtit">温馨提示</p>
+                                       <dl class="ceffct">
+                                                 <dd>
+                                                        <i class="dian"></i><span class="fcon">推拿保健后后避免吹风、受凉</span><div class="clear"></div>
+                                                 </dd>
+                                                 <dd>
+                                                        <i class="dian"></i><span class="fcon"> 推拿保健后半小时内不要用冷水洗手或洗澡。 </span><div class="clear"></div>
+                                                 </dd>
+                                                 
+                                     </dl>
+                              </div>
+					  
+					  <div class="downup"><img src="../img/downup-icon.png" alt=""></div>
+
+              	  </li>
+
+              	    <li>
+              	  	  <div class="ctit"><i class="shu"></i>禁忌症状</div>
+              	  
+              	  	  <p class="cint">
+              	  	  	   推拿疗法的禁忌症指不适宜推拿或在某种情况下，手法可能使病情加重恶化的情况。
+              	  	  </p>
+              	  	  <dl class="ceffct">
+              	  	  	<dd>
+              	  	  		<i class="dian"></i><span class="fcon">各种骨折、骨关节结核、骨髓炎、骨肿瘤、皮肤损伤的部位、
+                     			     脑脊髓症状时须排除蛛网膜下腔出血、严重的老年性骨质疏
+                     			     松症患者，推拿可能引起病理性骨折，肿瘤扩散转移或炎症
+                     			     发展扩散，因此也属于推拿禁忌症。</span><div class="clear"></div>
+              	  	  	</dd>           	  	  
+              	  	  </dl>
+                              <dl class="ceffct conhide">
+                                   <dd>
+                                          <i class="dian"></i><span class="fcon">严重的心、肺、肝、肾功能衰竭的病人或身体过于虚弱者，由于不承受强刺激，因此一般不宜接受推拿治疗。</span><div class="clear"></div>
+                                   </dd>     
+                                    <dd>
+                                          <i class="dian"></i><span class="fcon">各种急性传染病、急性腹膜炎包括胃、十二指肠溃疡穿孔者，禁忌推拿治疗。</span><div class="clear"></div>
+                                   </dd>   
+                                    <dd>
+                                          <i class="dian"></i><span class="fcon">有出血倾向或有血液病的患者，推拿可能引起局部皮下出血，妊娠期、经期的妇女故不宜推拿治疗。 </span><div class="clear"></div>
+                                   </dd>    
+                                    <dd>
+                                          <i class="dian"></i><span class="fcon">精神病患者或精神过度紧张时不宜推拿治疗。</span><div class="clear"></div>
+                              </dl>
+					  
+					  <div class="downup"><img src="../img/downup-icon.png" alt=""></div>
+
+              	  </li>
+
+              	   <li>
+              	  	  <div class="ctit"><i class="shu"></i>下单说明</div>
+              	  	  
+              	  	  <p class="cint">
+              	  	  	  本店营业时间为12:00-22:00，本项目享受服务人数应与购买数量相符，若服务人数与购买数量不符，本公司有权拒绝服务！详情请咨询客服：4008-558-503
+              	  	  </p>
+              	  	  <p class="csmtit">预约须知</p>
+              	  	  <dl class="ceffct">
+              	  	  	<dd>
+              	  	  		<i class="dian"></i><span class="fcon">请阅读项目的详细内容、适应人群、禁忌症，约拿中医推拿属于舒缓调理，并非医疗，如需治疗请到医院就诊。</span><div class="clear"></div>
+              	  	  	</dd>
+              	  	 
+              	  	  </dl>
+                                <div class="conhide">
+                                   <dl class="ceffct">
+                                                 <dd>
+                                                        <i class="dian"></i><span class="fcon">订单付款后，1小时内可取消订单，不扣取任何违约金； </span><div class="clear"></div>
+                                                 </dd>
+                                                 <dd>
+                                                        <i class="dian"></i><span class="fcon">订单付款后，超过1小时不得取消订单；（详情请咨询客服）</span><div class="clear"></div>
+                                                 </dd>
+                                                 
+                                     </dl>  
+                                      <p class="csmtit">付款前须知</p>
+                                       <dl class="ceffct">
+                                                 <dd>
+                                                        <i class="dian"></i><span class="fcon">请阅读项目的详细内容、适应人群、禁忌症，约拿中医推拿属 于舒缓调理，并非医疗，如需治疗请到医院就诊。 </span><div class="clear"></div>
+                                                 </dd>
+                                                 <dd>
+                                                        <i class="dian"></i><span class="fcon">约拿推拿师只提供专业正规服务，对于不正当的行为和要求我们有权拒绝服务，并保留诉诸法律的权利。</span><div class="clear"></div>
+                                                 </dd>
+                                                 
+                                     </dl>
+                              </div>
+					  
+					  <div class="downup"><img src="../img/downup-icon.png" alt=""></div>
+
+              	  </li>
+					
+				 <li>
+              	  	  <div class="ctit"><i class="shu"></i>预约信息</div>
+              	  	  <div class="cinp">
+                                   <span class="fl">预约时间</span><div class="fl" style="width:5.2rem; overflow:hidden;   "><input type="datetime-local"></div>     <img src="../img/righticon.png" alt=""  class="rbtn"/>   
+                                   <div class="clear"></div> 
+                              </div>
+                               <div class="cinp">
+                                   <span>预约人数</span><input type="text">          
+                              </div>
+                               <div class="cinp">
+                                   <span>联系人</span><input type="text">          
+                              </div>
+                               <div class="cinp">
+                                   <span>手机号</span><input type="text">          
+                              </div>
+                              <div class="cinp">
+                                   <input type="text" style="width:100%; padding:0 0.3rem; color:#565656;"  value="上海市卢湾区茂名南路78号一组21室"> 
+                              </div>
+                              <div class="cread" >  
+                                  企业名称:<span>上海有为信息技术有限公司 </span> 剩余次数:<span>100</span>
+                              </div>
+              	  </li>
+
+              </ul>
+
+               <div style="height:1.2rem; "></div>
+               <a href="servicead.html" class="agreebtn">立即预约</a>
+            
+		</section>
+	</body>
+
+</html>

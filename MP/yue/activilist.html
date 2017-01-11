@@ -1,0 +1,186 @@
+<html>
+	<head>
+		<title>讲座活动预约</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/yue.css" >
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+		<script src="../js/dropload.min.js"></script>
+		<script>
+		  $(function(){
+			   $('#myappoint').dropload({
+			        scrollArea : window,
+			        loadUpFn : function(me){
+			            $.ajax({
+			                type: 'GET',
+			                url: 'json/more.json',
+			                dataType: 'json',
+			                success: function(data){
+			                    var result = '';
+			                    for(var i = 0; i < data.lists.length; i++){
+			                        result +=   'hello';
+			                    }
+			                    // 为了测试，延迟1秒加载
+			                    setTimeout(function(){
+			                        $('#lmess').append(result);
+			                        me.resetload();
+			                    },1000);
+			                },
+			                error: function(xhr, type){
+			                    alert('Ajax error!');
+			                    me.resetload();
+			                }
+			            });
+			        }
+			    });
+			    $('#myappoint').dropload({
+			        scrollArea : window,
+			        loadDownFn : function(me){
+			            $.ajax({
+			                type: 'GET',
+			                url: 'json/more.json',
+			                dataType: 'json',
+			                success: function(data){
+			                    var result = '';
+			                    for(var i = 0; i < data.lists.length; i++){
+			                        result +=   'hello';
+			                    }
+			                    // 为了测试，延迟1秒加载
+			                    setTimeout(function(){
+			                        $('#lmess').append(result);
+			                        me.resetload();
+			                    },1000);
+			                },
+			                error: function(xhr, type){
+			                    alert('Ajax error!');
+			                    me.resetload();
+			                }
+			            });
+			        }
+			    });
+			 });
+			</script>
+	</head>
+	<body>
+		<section class='myappoint' id="myappoint">
+              <ul class="appoUl appoact2">
+              	 <li>
+              	 	<div class="proimg">
+              	 		 <img src="../img/pro3.png" alt="">
+              	 	</div>
+              	 	<div class="procon">
+                                   <p class="tit">中医主题活动主题活动主</p>
+                                   <p class="atag">概要介绍概要介绍概要介绍概要介绍概要介概要介概要.概要介绍概要介绍概要介绍概要介绍概要介概要介概要.....</p>
+                                   <div class="txt" style='width:auto'><span class="activi">活动时间：<a class="time">07-15 至 07-19</a></span></div>
+                                   <a href="#" class="yubtn fr" style='float:right;margin-right:0.15rem'>预约报名</a>     
+              	 		<!-- <div class="prodet fl">
+              	 			
+              	 		</div> -->
+              	 		
+              	 		<div class="clear"></div>
+              	 	</div>
+              	 	<div class="clear"></div>
+              	 </li>
+              	 <li>
+                            <div class="proimg">
+                                    <img src="../img/pro3.png" alt="">
+                            </div>
+                            <div class="procon">
+                                   <p class="tit">中医主题活动主题活动主</p>
+                                   <p class="atag">概要介绍概要介绍概要介绍概要介绍概要介概要介概要.概要介绍概要介绍概要介绍概要介绍概要介概要介概要.....</p>
+                                   <div class="txt" style='width:auto'><span class="activi">活动时间：<a class="time">07-15 至 07-19</a></span></div>
+                                   <a href="#" class="yubtn fr" style='float:right;margin-right:0.15rem'>预约报名</a>     
+                                   <!-- <div class="prodet fl">
+                                          
+                                   </div> -->
+                                   
+                                   <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                      </li>
+                      <li>
+                            <div class="proimg">
+                                    <img src="../img/pro3.png" alt="">
+                            </div>
+                            <div class="procon">
+                                   <p class="tit">中医主题活动主题活动主</p>
+                                   <p class="atag">概要介绍概要介绍概要介绍概要介绍概要介概要介概要.概要介绍概要介绍概要介绍概要介绍概要介概要介概要.....</p>
+                                   <div class="txt" style='width:auto'><span class="activi">活动时间：<a class="time">07-15 至 07-19</a></span></div>
+                                   <a href="#" class="yubtn fr" style='float:right;margin-right:0.15rem'>预约报名</a>     
+                                   <!-- <div class="prodet fl">
+                                          
+                                   </div> -->
+                                   
+                                   <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                      </li>
+                      <li>
+                            <div class="proimg">
+                                    <img src="../img/pro3.png" alt="">
+                            </div>
+                            <div class="procon">
+                                   <p class="tit">中医主题活动主题活动主</p>
+                                   <p class="atag">概要介绍概要介绍概要介绍概要介绍概要介概要介概要.概要介绍概要介绍概要介绍概要介绍概要介概要介概要.....</p>
+                                   <div class="txt" style='width:auto'><span class="activi">活动时间：<a class="time">07-15 至 07-19</a></span></div>
+                                   <a href="#" class="yubtn fr" style='float:right;margin-right:0.15rem'>预约报名</a>     
+                                   <!-- <div class="prodet fl">
+                                          
+                                   </div> -->
+                                   
+                                   <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                      </li>
+                      <li>
+                            <div class="proimg">
+                                    <img src="../img/pro3.png" alt="">
+                            </div>
+                            <div class="procon">
+                                   <p class="tit">中医主题活动主题活动主</p>
+                                   <p class="atag">概要介绍概要介绍概要介绍概要介绍概要介概要介概要.概要介绍概要介绍概要介绍概要介绍概要介概要介概要.....</p>
+                                   <div class="txt" style='width:auto'><span class="activi">活动时间：<a class="time">07-15 至 07-19</a></span></div>
+                                   <a href="#" class="yubtn fr" style='float:right;margin-right:0.15rem'>预约报名</a>     
+                                   <!-- <div class="prodet fl">
+                                          
+                                   </div> -->
+                                   
+                                   <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                      </li>
+                      <li>
+                            <div class="proimg">
+                                    <img src="../img/pro3.png" alt="">
+                            </div>
+                            <div class="procon">
+                                   <p class="tit">中医主题活动主题活动主</p>
+                                   <p class="atag">概要介绍概要介绍概要介绍概要介绍概要介概要介概要.概要介绍概要介绍概要介绍概要介绍概要介概要介概要.....</p>
+                                   <div class="txt" style='width:auto'><span class="activi">活动时间：<a class="time">07-15 至 07-19</a></span></div>
+                                   <a href="#" class="yubtn fr" style='float:right;margin-right:0.15rem'>预约报名</a>     
+                                   <!-- <div class="prodet fl">
+                                          
+                                   </div> -->
+                                   
+                                   <div class="clear"></div>
+                            </div>
+                            <div class="clear"></div>
+                      </li>
+              	 
+
+              </ul>	
+            
+		</section>
+	</body>
+
+</html>

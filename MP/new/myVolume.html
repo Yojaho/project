@@ -1,0 +1,175 @@
+<html>
+	<head>
+		<title>优惠券</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/wen.css" >
+		<link rel="stylesheet" type="text/css" href="../css/dropload.min.css">
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/dropload.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+
+	</head>
+	<body>
+		<section class='myVoume'>
+			<ul class='nav'>
+				<li class='active one'>未使用（2）</li>
+				<li class='two'>已使用（3）</li>
+				<li class='three'>已过期（2）</li>
+			</ul>
+			<div class='kong'></div>
+			<ul class='list' id='list1'>
+				<li>
+					<div class='top'>
+						<div class='fl'>
+							<div class='title'>15元优惠券</div>
+							<div class='time'>有效期：09-09 — 09-20</div>
+						</div>
+						<div class='fr'>￥<a>15</a></div>
+						<div class='clear'></div>
+					</div>
+					<div class='bottom'>
+						仅限商城使用，满200可用
+					</div>
+				</li>
+				<li>
+					<div class='top'>
+						<div class='fl'>
+							<div class='title'>15元优惠券</div>
+							<div class='time'>有效期：09-09 — 09-20</div>
+						</div>
+						<div class='fr'>￥<a>15</a></div>
+						<div class='clear'></div>
+					</div>
+					<div class='bottom'>
+						仅限商城使用，满200可用
+					</div>
+				</li>
+			</ul>
+			<ul class='list hide' id='list2'>
+				<li>
+					<div class='top'>
+						<div class='fl'>
+							<div class='title'>15元优惠券</div>
+							<div class='time'>有效期：09-09 — 09-20</div>
+						</div>
+						<div class='fr'>￥<a>15</a></div>
+						<div class='clear'></div>
+					</div>
+					<div class='bottom'>
+						仅限商城使用，满200可用
+					</div>
+				</li>
+				<li>
+					<div class='top'>
+						<div class='fl'>
+							<div class='title'>15元优惠券</div>
+							<div class='time'>有效期：09-09 — 09-20</div>
+						</div>
+						<div class='fr'>￥<a>15</a></div>
+						<div class='clear'></div>
+					</div>
+					<div class='bottom'>
+						仅限商城使用，满200可用
+					</div>
+				</li>
+			</ul>
+			<ul class='list hide' id='list3'>
+				<li>
+					<div class='top'>
+						<div class='fl'>
+							<div class='title'>15元优惠券</div>
+							<div class='time'>有效期：09-09 — 09-20</div>
+						</div>
+						<div class='fr'>￥<a>15</a></div>
+						<div class='clear'></div>
+					</div>
+					<div class='bottom'>
+						仅限商城使用，满200可用
+					</div>
+				</li>
+				<li>
+					<div class='top'>
+						<div class='fl'>
+							<div class='title'>15元优惠券</div>
+							<div class='time'>有效期：09-09 — 09-20</div>
+						</div>
+						<div class='fr'>￥<a>15</a></div>
+						<div class='clear'></div>
+					</div>
+					<div class='bottom'>
+						仅限商城使用，满200可用
+					</div>
+				</li>
+			</ul>
+		</section>
+	</body>
+		<script type="text/javascript">
+	$(function(){
+		// $('.list').dropload({
+  //       scrollArea : window,
+  //       loadUpFn : function(me){
+  //           $.ajax({
+  //               type: 'GET',
+  //               url: 'json/more.json',
+  //               dataType: 'json',
+  //               success: function(data){
+  //                   var result = '';
+  //                   for(var i = 0; i < data.lists.length; i++){
+  //                       result +=   'hello';
+  //                   }
+  //                   // 为了测试，延迟1秒加载
+  //                   setTimeout(function(){
+  //                       $('#lmess').append(result);
+  //                       me.resetload();
+  //                   },1000);
+  //               },
+  //               error: function(xhr, type){
+  //                   alert('Ajax error!');
+  //                   me.resetload();
+  //               }
+  //           });
+  //       }
+  //   });
+    $('.list').dropload({
+        scrollArea : window,
+        loadDownFn : function(me){
+            $.ajax({
+                type: 'GET',
+                url: 'json/more.json',
+                dataType: 'json',
+                success: function(data){
+                    var result = '';
+                    for(var i = 0; i < data.lists.length; i++){
+                        result +=   'hello';
+                    }
+                    // 为了测试，延迟1秒加载
+                    setTimeout(function(){
+                        $('#lmess').append(result);
+                        me.resetload();
+                    },1000);
+                },
+                error: function(xhr, type){
+                    alert('Ajax error!');
+                    me.resetload();
+                }
+            });
+        }
+    });
+	    $('.nav').find("li").click(function(){
+	    	//alert(1);
+	    	$(this).addClass('active').siblings().removeClass('active');
+	    	$(".list").eq($(this).index()).addClass('show').removeClass("hide").siblings(".list").addClass('hide').removeClass("show")
+	    })
+	})
+</script>
+</html>

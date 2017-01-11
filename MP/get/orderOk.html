@@ -1,0 +1,158 @@
+<html>
+	<head>
+		<title>订单详情(订单完成)</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/get.css" >
+
+		<link rel="stylesheet" type="text/css" href="../css/dropload.min.css">
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/dropload.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+
+	</head>
+	<body>
+		<section class='comfirm'>
+			<div class='head'>
+				<div class='fl txt'>
+					订单完成
+					
+				</div>
+				<div class='fl img'>
+					<img src='../img/orderOk.png'/>
+				</div>
+				<div class='clear'></div>
+			</div>
+			<div class='hs'>
+				<div class='fl img'><img src='../img/address.png'/></div>
+				<div class='fl right'>
+					<div class='title'>
+						<div class='fl getpeo'>收货人：<a>YOUWELL</a></div>
+						<div class='fr phone'>13777777777</div>
+						<div class='clear'></div>
+					</div>
+					<div class='deltxt'>预约地址：上海市卢湾区茂名南路59号西楼一组131室上海市卢湾区茂名南路59号西楼一组131室</div>
+				</div>
+				
+				<div class='clear'></div>
+			</div>
+			<ul class='list'>
+				<li>
+					<div class='fl img'>
+						<img src='../img/photoimg2.png'/>
+					</div>
+					<div class='fl right'>
+						<div class='title'>产品标题产品标题产品标题产品标题产品标题产品标题</div>
+						<div class='f'>
+							<div class='fl money'>￥<a>77.99</a></div>
+							<div class='fr count'>x<a>2</a></div>
+							<div class='clear'></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</li>
+				
+			</ul>
+			<ul class='del'>
+				<li>
+					<div class='name fl'>实付款</div>
+					<div class='txt fr txt2'>￥119.09</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='name fl'>优惠券</div>
+					<div class='txt fr txt2'>-￥10.00</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='name fl'>积分抵扣</div>
+					<div class='txt fr txt2'>-￥10.00</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='name fl'>发票信息</div>
+					<div class='txt fr'>上海有为信息技术有限公司</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='name fl'>留言：</div>
+					<div class='txt fr'>terwrwrwewewe</div>
+					<div class='clear'></div>
+				</li>
+			</ul>
+			<div class='peisinfo'>
+				<div class='title'>配送信息</div>
+				<div class='top'>
+					<div>配送单号：292725225</div>
+					<div>承运商：顺丰速递</div>
+				</div>
+				<ul>
+					<li>
+						<div class='name'>【上海市】上海分拨中心    已发出</div>
+						<div class='txt'>2016-09-09 09:09:08</div>
+					</li>
+					<li>
+						<div class='name'>【上海市】上海分拨中心    已发出</div>
+						<div class='txt'>2016-09-09 09:09:08</div>
+					</li>
+					<li>
+						<div class='name'>【上海市】上海分拨中心    已发出</div>
+						<div class='txt'>2016-09-09 09:09:08</div>
+					</li>
+				</ul>
+			</div>
+			<ul class='orderinfo'>
+				<li>
+					<div class='fl name'>订单编号：</div>
+					<div class='fl'>292625242343223</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='fl name'>交易编号：</div>
+					<div class='fl'>292625242343223</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='fl name'>创建时间：</div>
+					<div class='fl'>2016-08-09 11:09:09</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='fl name'>交易时间：</div>
+					<div class='fl'>2016-08-09 11:09:09</div>
+					<div class='clear'></div>
+				</li>
+			</ul>
+			<div class='kong'></div>
+			<div class='fos'>
+				<div class='listbtn'><div class='btn'>立即评价</div></div>
+				<div class='listbtn'><div class='btn'>追加评价</div></div>
+				<div class='listbtn'><div class='btn'>继续付款</div></div>
+				<div class='listbtn'><div class='btn on'>取消订单</div></div>
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript">
+		$(function(){
+		$(".btn .bts").click(function(){
+			if($(this).hasClass('on')){
+				$(this).removeClass('on');
+				$('.bts').animate({'left':'-1px'},100).css({'border':'1px solid #7f888b','background':'#fff'})
+			}
+			else{
+				$(this).addClass('on');
+				$('.bts').animate({'left':'0.4rem'},100).css({'border':'1px solid #ea5a3d','background':'#ea5a3d'})
+			}
+		})
+	})
+	</script>
+</html>

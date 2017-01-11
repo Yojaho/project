@@ -1,0 +1,104 @@
+﻿@font-face {   
+      font-family: 'FZLTZHK';   
+
+      src: url('font/FZLTZHK.eot');   
+
+      src: url('font/FZLTZHK.eot?#iefix') format('embedded-opentype'),  
+
+           url('font/FZLTZHK.woff') format('woff'),  
+		   url('font/FZLTZHK.woff2') format('woff2'),  
+
+       url('font/FZLTZHK.ttf') format('truetype'),   
+
+       url('font/FZLTZHK.svg#steiner') format('svg');   
+
+      font-weight: normal;   
+
+      font-style: normal;   
+
+}
+@font-face { 
+  font-family: sas; /*这里是说明调用来的字体名字*/ 
+  src: url('font/sas.TTF'); /*这里是字体文件路径*/ 
+} 
+@font-face { 
+  font-family: FZLTZHK; /*这里是说明调用来的字体名字*/ 
+  src: url('font/FZLTZHK.TTF'); /*这里是字体文件路径*/ 
+} 
+
+html,body{margin: 0px;padding: 0px;overflow-x:hidden;font-family:sas;}
+ul{margin: 0px;padding: 0px;}
+ul li{list-style: none}
+a{text-decoration: none}
+.clear{clear:both;}
+
+.top{width: 100%;background-color:#b5241d;border:1px solid #d9a2a0;text-align: center;padding-bottom: 50px}
+.top .title{margin: 0 auto;margin-right: 248px;}
+.top .title .titlecontent{float:right;margin-top: 7pt}
+.top .title a{font-size:12pt;color:#fff;text-decoration: none;float:left;margin-top:18px;margin-right:5px;margin-left:5px;font-family: 微软雅黑}
+.top .title a.line{margin: 0 20px 0 20px;margin-top:18px}
+.top .title div.mysearchicocn{background-image: url(../img/icon.png);background-position:-106px -58px;width:20pt;height:20pt;float:left;cursor: pointer;margin-top: -2px;margin-left:-5px;}
+.top .title div.myitem{background-image: url(../img/icon.png);background-position:-52px -15px;width:19px;height:20px;float: left;cursor: pointer;}
+.top .title div.myfriend{background-image: url(../img/icon.png);background-position:-19px -16px;width:27px;height:18px;float:left;cursor: pointer;}
+.top .title div.drophead{width: 208px;float: left;height: 51pt;cursor: pointer;}
+.top .title div.head{float:left;background-color:#ea433b;border-radius: 30.575pt;height:30.575pt;width: 30.575pt;margin-right: 5px;margin-left:30px;margin-top:5px;}
+.top .title div.head div{background-image: url(../img/head.png);height:27.065pt;width:27.065pt;margin-left:2px;margin-top:3px;border-radius: 27.065pt}
+.top .title a.info{background-color: #ff8382;color: #fff;font-size:10pt;height: 17.34pt;width: 17.34pt;border-radius: 17.34pt;text-align: center;line-height: 17.34pt;margin-top:14px}
+.top .title div.dropdown{background-image: url(../img/icon.png);background-position:-79px -22px;width:14px;height:12px;float:left;margin-top:19px;cursor: pointer;}
+
+.inputbutton{text-indent:8px;background:#ff8382;width:74.8pt;height:21.1pt;line-height:21.1pt;color:#fff;font-size:12pt;border-radius:10px;position:relative;margin-top:6px;margin-left:5px;float:left;opacity: 0;font-family:FZLTZHK }
+.inputbutton .inputbuttonicon{background-image: url(../img/icon.png);background-position:-183px -23px;width:7.372pt;height:7.372pt;position:absolute;right:6px;top:9px;cursor:pointer}
+
+/* 分页 */
+#titlepage{max-width: 512px;margin: 0 auto;margin-top: 88px;}
+#titlepage .first,#titlepage .last{font-weight: bold;}
+#titlepage .first:hover,#titlepage .last:hover,#titlepage li:hover{background: #ea433b;}
+#titlepage .first,#titlepage .last,#titlepage li{float:left;width: 104px;height: 36px;line-height: 36px;text-align: center;color: #fff;background: #c9caca;border-radius: 36px;cursor: pointer;margin-right: 5px}
+#titlepage li{height: 36px;width: 36px;line-height: 36px;text-align: center;border-radius: 36px;background: #c9caca;color: #fff;}
+#titlepage li.active{background: #ea433b}
+
+
+.dropmenu{width:208px;position: absolute;top:69px;left: 0px;display: none;opacity: 0}
+.dropmenu li{height: 32.801pt;line-height: 32.801pt;background-color: #b5241d;border-bottom:1px solid #c52d26;cursor: pointer;}
+.dropmenu li:hover{background: #a51b15}
+.dropmenu li .text{float:left;color: #fff;font-size: 12pt;margin-left: 30px}
+.dropmenu li .infoicon{background-image: url(../img/icon.png);background-position:-200px -21px;width:16px;height:15px;float:left;margin-left:30px;margin-top:14px;}
+.dropmenu li .seticon{background-image: url(../img/icon.png);background-position:-220px -17px;width:19px;height:20px;float:left;margin-top: 12px;margin-left:30px;}
+.dropmenu li .menoyupicon{background-image: url(../img/icon.png);background-position:-243px -19px;width:16px;height:16px;float:left;margin-top: 12px;margin-left:30px;}
+.dropmenu li .Vzicon{background-image: url(../img/icon.png);background-position:-262px -19px;width:16px;height:16px;float:left;margin-top: 12px;margin-left:30px;}
+.dropmenu li .helpicon{background-image: url(../img/icon.png);background-position:-280px -19px;width:16px;height:16px;float:left;margin-top: 12px;margin-left:30px;}
+.dropmenu li .goouticon{background-image: url(../img/icon.png);background-position:-298px -19px;width:16px;height:16px;float:left;margin-top: 12px;margin-left:30px;}
+
+.footer{background: #e5e6e6;width: 100%;padding-top: 98px;padding-bottom: 98px}
+.footer .content{width:780pt;margin: 0 auto;text-align: center;}
+.footer .content .logo{background-image: url(../img/headlogo.png);height:30pt;width: 90pt;float:left;}
+.footer .content ul{float:left;margin-left: 50pt;}
+.footer .content ul .listus a{color: #898989;font-size:12pt;margin-right:35px;font-family: FZLTZHK}
+.footer .content ul .forme{margin-top:10px;text-align: left;font-family: FZLTZHK}
+.footer .content ul .forme a{color: #b5b5b6;margin-right:20px;font-family: FZLTZHK;font-size: 8.78pt}
+
+.packs{width: 100%;background: #4a4141;height: 80px;line-height: 80px;position: fixed;bottom: 0px}
+.packs .content{width: 835pt;text-align: center;margin: 0 auto}
+.packs .content .packsicon{background-image: url(../img/icon.png);background-position:-162px -141px;width:39px;height:36px;float:left;margin-top:18px;}
+.packs .content .title{color: #fff;font-size:16pt;float:left;margin-left: 16px;font-family:FZLTZHK}
+.packs .content .iconup{background-image: url(../img/icon.png);background-position:-211px -147px;width:41px;height:25px;float:left;margin-left:300pt;margin-top: 26px;cursor: pointer;}
+.packs .content .icondown{background-image: url(../img/icon.png);background-position:-259px -148px;width:41px;height:25px;float:left;margin-left:300pt;margin-top: 26px;cursor: pointer;display: none}
+.packs .content .search{height: 44px;width: 350px;border: 1px solid #fff;border-radius: 6px;float:right;margin-top:18px;display: none}
+.packs .content .search .searchicon{background-image: url(../img/icon.png);background-position:-105px -58px;width:21px;height:20px;margin-top:12px;margin-left:12px;float: left}
+.packs .content .search .searchtext{height: 44px;line-height: 44px;width: 300px;float;left;background: #4a4141;border: 0;text-indent: 12px;color: #fff;font-size:12pt;font-family: sas;}
+.packs .content .leftbutton{background-image: url(../img/icon.png);background-position:-12px -225px;width:29px;height:46px;float:left;margin-top:58px;cursor: pointer;display: none}  
+.packs .content .uls{float:left;margin-top:20px;margin-left:26px;display: none;width: 740pt;overflow: hidden;height: 122px;}
+.packs .content .uls ul{width: 200%;height: 122px}
+.packs .content .rightbutton{background-image: url(../img/icon.png);background-position:-50px -225px;width:29px;height:46px;float:right;margin-top:58px;cursor: pointer;display: none}
+.packs .content ul li{list-style: none;float:left;margin-right: 40pt;width: 115pt; margin-top:15pt;}
+.packs .content ul div.list{background: #d7d7d7;width: 60pt;height: 60pt;border-radius: 122px;position: relative;float:left;}
+.packs .content ul div.list .border{height: 64pt;width: 64pt;border-radius: 64pt;background: #fff;position: absolute;}
+.packs .content ul div.list .border .img{height:62pt;width: 62pt;border-radius: 62pt;margin-left:1px;margin-top: 1px}
+.packs .content ul div.list .border .img .bg{background: rgba(234,67,59,0.5);height:62pt;width: 62pt;border-radius: 62pt;display: none;cursor: pointer;font-size:14pt;color: #fff;text-align: center;line-height: 62pt;position: relative;}
+.packs .content ul div.list .border .img .bg2{background: rgba(234,67,59,0.5);height:60pt;width: 60pt;border-radius: 60pt;font-size:14pt;color: #fff;text-align: center;line-height: 60pt;position: relative;}
+.packs .content ul div.list .border .img .bg .bgicon{background-image: url(../img/icon.png);background-position:-162px -186px;width:35px;height:36px;position: absolute;left:25px;top:25px;}
+.packs .content ul div.list .border .img .bg2 .bgicon{color:#fff;font-size:20px;width: 110px;height: 110px;line-height: 110px;text-align: center}
+.packs .content ul div.text{float:left;margin-left:5px;margin-top:15px;}
+.packs .content ul div.text p{ font-size:10pt;height:30px;line-height: 30px;margin: 0;color: #fff}
+.packs .content ul div.text p.name{font-size: 14pt}
+.packs .content ul div.text p a{margin:0 5px 0 5px;}

@@ -1,0 +1,148 @@
+<html>
+	<head>
+		<title>我的积分</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/get.css" >
+
+		<link rel="stylesheet" type="text/css" href="../css/dropload.min.css">
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/dropload.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+
+	</head>
+	<body>
+		<section class='qiandaojifen'>
+			<div class='top'>
+				<div class='img'><img src='../img/qiandao2.png'/>
+					<a>点击签到</a>
+				</div>
+				<div class='txt'>每日点击签到，即可获得12个积分</div>
+			</div>
+			<div class='con'>
+				<div class='title'>优惠卷信息</div>
+				<ul>
+					<li>
+						<div class='cons'>
+							<div class='t'>
+								<div class='fl'>
+									<div class='name'>15元优惠卷</div>
+									<div class='txt'>有效期：09-09 — 09-20</div>
+								</div>
+								<div class='fr'>
+									￥<a>15</a>
+								</div>
+							</div>
+							<div class='b'>仅限商城使用，满200可用<img src='../img/yilingqu.png'/></div>
+						</div>
+					</li>
+					<li>
+						<div class='cons'>
+							<div class='t'>
+								<div class='fl'>
+									<div class='name'>15元优惠卷</div>
+									<div class='txt'>有效期：09-09 — 09-20</div>
+								</div>
+								<div class='fr'>
+									￥<a>15</a>
+								</div>
+							</div>
+							<div class='b'>仅限商城使用，满200可用</div>
+						</div>
+					</li>
+					<li>
+						<div class='cons'>
+							<div class='t'>
+								<div class='fl'>
+									<div class='name'>15元优惠卷</div>
+									<div class='txt'>有效期：09-09 — 09-20</div>
+								</div>
+								<div class='fr'>
+									￥<a>15</a>
+								</div>
+							</div>
+							<div class='b'>仅限商城使用，满200可用<img src='../img/yishiyong.png'/></div>
+						</div>
+					</li>
+					<li class='guoqi'>
+						<div class='cons'>
+							<div class='t'>
+								<div class='fl'>
+									<div class='name'>15元优惠卷</div>
+									<div class='txt'>有效期：09-09 — 09-20</div>
+								</div>
+								<div class='fr'>
+									￥<a>15</a>
+								</div>
+							</div>
+							<div class='b'>仅限商城使用，满200可用<img src='../img/yiguoqi.png'/></div>
+						</div>
+					</li>
+				</ul>
+			</div>
+		</section>
+	</body>
+	<script type="text/javascript">
+	$(function(){
+		$('.qiandaojifen').dropload({
+        scrollArea : window,
+        loadUpFn : function(me){
+            $.ajax({
+                type: 'GET',
+                url: 'json/more.json',
+                dataType: 'json',
+                success: function(data){
+                    var result = '';
+                    for(var i = 0; i < data.lists.length; i++){
+                        result +=   'hello';
+                    }
+                    // 为了测试，延迟1秒加载
+                    setTimeout(function(){
+                        $('#lmess').append(result);
+                        me.resetload();
+                    },1000);
+                },
+                error: function(xhr, type){
+                    alert('Ajax error!');
+                    me.resetload();
+                }
+            });
+        }
+    });
+    $('.qiandaojifen').dropload({
+        scrollArea : window,
+        loadDownFn : function(me){
+            $.ajax({
+                type: 'GET',
+                url: 'json/more.json',
+                dataType: 'json',
+                success: function(data){
+                    var result = '';
+                    for(var i = 0; i < data.lists.length; i++){
+                        result +=   'hello';
+                    }
+                    // 为了测试，延迟1秒加载
+                    setTimeout(function(){
+                        $('#lmess').append(result);
+                        me.resetload();
+                    },1000);
+                },
+                error: function(xhr, type){
+                    alert('Ajax error!');
+                    me.resetload();
+                }
+            });
+        }
+    });
+	})
+	</script>
+</html>

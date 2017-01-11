@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>首页</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="css/pravite.css">
+
+		<script src="js/base-loading.js"></script>
+		<script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="js/size.js"></script>
+		
+		
+	  
+	    <script>
+			$(document).ready(function () {
+				 var _width = $(window).width();
+			     $(".gameweb .gbox").css({ "width":_width-28+"px"});
+			});
+		</script>
+		
+	</head>
+	<body class="gamewebBody">
+	
+
+		<section class="gameweb gamedet">
+			<div class="condet">
+				 <div class="detimg"><img src="img/pro1.png" alt=""></div>
+				 <div class="dettit">李逵劈鱼</div>
+				 <div class="detdown">
+				 	 <img src="img/downgame-icon.png" class="downgame">
+				 </div>	
+				
+				 <div class="clear"></div>
+				 <p class="dettxt">李逵劈鱼是一款经典的万炮捕鱼游戏，是一款新款捕鱼游戏，大BOSS为神秘莫测的双头企鹅和威武霸气的李逵，李逵通过吃小鱼可以增加倍率，李逵劈鱼游戏场采用全3D制作以美丽的深海作为游戏背景，给人予视觉的感受，让玩家体会到真正捕鱼带来的快乐。
+				 </p>
+			</div>
+			
+		
+			
+			<div class="clear"></div>
+
+		</section>
+
+
+		
+			
+
+	<script type="text/javascript">
+	 $(function(){
+		  $(".downgame").click(function(){
+			 var _that =this;
+		 	 $(this).css("opacity","0.7");
+		 	 var time = setTimeout(function(){
+		 	 	clearTimeout(time);
+		 	 	 $(_that).css("opacity","1");;	
+		 	 },300);
+		 })
+
+	 })
+	</script>
+		
+		  
+		     
+		
+
+	
+								   
+			
+	</body>
+	
+</html>

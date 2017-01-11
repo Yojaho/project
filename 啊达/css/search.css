@@ -1,0 +1,30 @@
+.top{height:51pt;padding-bottom: 0}
+.top .title .logo{background-image: url(../img/logotitle.png);height: 27pt;width: 84pt;float: left;}
+
+.down{background: #efefef;width: 100%;padding-top: 50pt}
+.down .search{width:492.607pt;height: 31.333pt;margin:0 auto;text-align: center}
+.down .search .text{width: 390pt;height:31.333pt;font-size: 20px;float:left;border: 1px solid #ea433b;text-indent: 20px;float:left;background:#fff;text-align:left;color:#999}
+.down .search .button{width:92pt;text-align: center;line-height: 33pt;height: 33pt;background:#ea433b;outline: 0px;border: 0;font-size: 14pt;color: #fff;float:left;cursor:pointer;font-family:FZLTZHK }
+
+.down .content{margin: 0 auto;width: 670pt;margin-top:33pt;padding-bottom: 86px}
+.down .contenttitle{color: #9fa0a0;font-size: 12pt;font-family:FZLTZHK }
+.down .content ul{width: 684pt;}
+.down .content ul .ullist{list-style: none;float:left;margin-top:44px;width: 20%}
+.down .content ul div.list{background: #d7d7d7;width: 102.96pt;height: 102.96pt;border-radius: 102.96pt;position: relative;}
+.down .content ul div.list .border{height: 100pt;width: 100pt;border-radius: 100pt;background: #fff;position: absolute;left:1px;top:1px;}
+.down .content ul div.list .border .img{height:92.722pt;width: 92.722pt;border-radius: 92.722pt;margin-top:5px;margin-left:5px;}
+.down .content ul div.list .border .img .bg{background: rgba(234,67,59,0.5);height:92.722pt;width: 92.722pt;border-radius: 92.722pt;display: none;cursor: pointer;font-size:12pt;color: #fff;text-align: center;line-height: 92.722pt;font-family: FZLTZHK}
+.down .content ul div.downtext{margin-top:23px;text-align: center;width: 102.96pt} 
+.down .content ul div.downtext .name{color: #595757;font-size:12pt;font-family:FZLTZHK }
+.down .content ul div.downtext .del{color:#898989;font-size:10pt;margin-top:5px;font-family:FZLTZHK }
+.down .content ul div.downtext .del a{margin:0px 10px 0 10px;font-family:FZLTZHK }
+
+.footer{background: #e5e6e6;width: 100%;padding-top: 98px;padding-bottom: 98px}
+.footer .content{width:1200px;margin: 0 auto;text-align: center;}
+.footer .content .logo{background-image: url(../img/headlogo.png);height:58px;width: 186px;float:left;}
+.footer .content ul{float:left;margin-left: 105px}
+.footer .content ul .listus a{color: #898989;font-size:19px;margin-right:35px;}
+.footer .content ul .forme{margin-top:10px;text-align: left}
+.footer .content ul .forme a{color: #b5b5b6;margin-right:20px;}
+.inputbutton{opacity: 1}
+#titlepage{margin-left: 300px}

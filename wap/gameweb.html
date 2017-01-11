@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>首页</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="css/pravite.css">
+
+		<script src="js/base-loading.js"></script>
+		<script type="text/javascript" src="js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="js/size.js"></script>
+		
+		<script type="text/javascript" src="js/swipeslider.min.js"></script>
+	  
+	    <script>
+			$(document).ready(function () {
+				 var _width = $(window).width();
+			     $(".gameweb .gbox").css({ "width":_width-28+"px"});
+
+				 $('#full_feature').swipeslider();
+			     
+
+
+
+
+				
+			});
+		</script>
+		
+	</head>
+	<body class="gamewebBody">
+	
+
+		<section class="gameweb">
+			<div class="logo">
+				<div class="gbox">
+					<div class="gb">
+						  <figure id="full_feature" class="swipslider">
+					        <ul class="sw-slides">
+					         <li class="sw-slide">
+					            <img src="img/banner2.png"  alt="" />
+					          </li>
+					          <li class="sw-slide">
+					           <img src="img/banner2.png"  alt="" />
+					          </li>       
+					         
+					        </ul>
+					      </figure>
+					</div>
+				</div>			
+			</div>
+			<div class="packbox">
+				<div class="font"><img src="img/font/font1.png" class="font1" alt=""></div>
+				<p class="fsong">注册成功即送 18888 <img src="img/money-icon.png" alt=""></p>
+				<div class="pbtn">
+					<a ><img src="img/download-icon.png" class="downbtn" alt=""></a>
+					<a ><img src="img/fzhu-icon.png" alt="" class="zhubtn"></a>
+				</div>
+				<p class="fdown">总下载次数:<a>16837</a>人</p>
+				
+			</div>
+			
+			<div class="playdiv">
+				<div class="playbox">
+
+				</div>
+				<div class="paly2box">
+					 <div class="playhead"><img src="img/font/font2.png" alt=""></div>
+					 <ul class="playUl">
+					 	<li>
+					 		<div class="prod"><img src="img/pro1.png" alt=""></div>
+					 		<div class="pcon">
+					 			<p class="pt">李逵劈鱼</p>
+					 			<p class="px">是一款经典的万炮捕鱼游戏，是一款新款捕鱼游戏大BOSS为神秘莫测的双头企鹅和威武霸气的李逵，</p>
+					 		</div>
+					 		<div class="playbtn">
+					 			<img src="img/downgame-icon.png" class="downgame" alt="">
+					 		</div>
+					 		<img src="img/xian.png" alt="" class="xian"/>
+					 		<div class="clear"></div>
+					 	</li>
+					 	<li>
+					 		<div class="prod"><img src="img/pro1.png" alt=""></div>
+					 		<div class="pcon">
+					 			<p class="pt">李逵劈鱼</p>
+					 			<p class="px">是一款经典的万炮捕鱼游戏，是一款新款捕鱼游戏大BOSS为神秘莫测的双头企鹅和威武霸气的李逵，</p>
+					 		</div>
+					 		<div class="playbtn">
+					 			<img src="img/downgame-icon.png" class="downgame" alt="">
+					 		</div>
+					 		<img src="img/xian.png" alt="" class="xian"/>
+					 		<div class="clear"></div>
+					 	</li>
+					 	<li>
+					 		<div class="prod"><img src="img/pro1.png" alt=""></div>
+					 		<div class="pcon">
+					 			<p class="pt">李逵劈鱼</p>
+					 			<p class="px">是一款经典的万炮捕鱼游戏，是一款新款捕鱼游戏大BOSS为神秘莫测的双头企鹅和威武霸气的李逵，</p>
+					 		</div>
+					 		<div class="playbtn">
+					 			<img src="img/downgame-icon.png" class="downgame" alt="">
+					 		</div>
+					 		<img src="img/xian.png" alt="" class="xian"/>
+					 		<div class="clear"></div>
+					 	</li>
+					 </ul>
+					
+
+				</div>	
+						
+			</div>
+
+			<div class="playfoot">
+				<p class="bone">版权所有：大顽童娱乐城</p>
+				<p>ICP许可证：粤ICP备11111111号-1</p>
+			</div>
+			
+			<div class="clear"></div>
+
+		</section>
+
+
+		
+	
+		
+		  
+		     
+		
+
+	<script type="text/javascript">
+	 $(function(){
+
+
+	 	
+		$(".downbtn,.zhubtn,.downgame").click(function(){
+			 var _that =this;
+		 	 $(this).css("opacity","0.7");
+		 	 var time = setTimeout(function(){
+		 	 	clearTimeout(time);
+		 	 	 $(_that).css("opacity","1");;	
+		 	 },300);
+		 })
+
+
+	 })
+	</script>
+								   
+			
+	</body>
+	
+</html>

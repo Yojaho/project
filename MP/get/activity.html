@@ -1,0 +1,197 @@
+<html>
+	<head>
+		<title>活动</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/get.css" >
+
+		<link rel="stylesheet" type="text/css" href="../css/dropload.min.css">
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/dropload.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+		<script type="text/javascript" src="../js/TouchSlide.1.1.js"></script>
+
+	</head>
+	<body>
+		<section class='activity'>
+			<div class="banner" id="slideBox">
+		        <div class="bd">
+		            <ul>
+		                <li><img src="../img/banner3.png"></li>
+		                <li><img src="../img/banner3.png"></li>
+		                <li><img src="../img/banner3.png"></li>
+		                <li><img src="../img/banner3.png"></li>
+		                <li><img src="../img/banner3.png"></li>
+		            </ul>
+		        </div>
+		        <div class="hd">
+		            <ul></ul>
+		        </div>
+			</div>
+			<ul class='con'>
+				<li>
+					<div class='fl img'>
+						<img src='../img/photoimg4.png'/>
+					</div>
+					<div class='fl right'>
+						<div class='title'>要介绍概要介绍概要介是改善方式</div>
+						<div class='txt'>小标题小标题小标题小标题</div>
+						<div class='money'>
+							<div class='nowpri fl'>￥<a>77.99</a></div>
+							<div class='oldpri fl'>￥<del>100.00</del></div>
+							<div class='fr'><img src='../img/qiang.png'/></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='fl img'>
+						<img src='../img/photoimg4.png'/>
+					</div>
+					<div class='fl right'>
+						<div class='title'>要介绍概要介绍概要介是改善方式</div>
+						<div class='txt'>小标题小标题小标题小标题</div>
+						<div class='money'>
+							<div class='nowpri fl'>￥<a>77.99</a></div>
+							<div class='oldpri fl'>￥<del>100.00</del></div>
+							<div class='fr'><img src='../img/guang.png'/></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='fl img'>
+						<img src='../img/photoimg4.png'/>
+					</div>
+					<div class='fl right'>
+						<div class='title'>要介绍概要介绍概要介是改善方式</div>
+						<div class='txt'>小标题小标题小标题小标题</div>
+						<div class='money'>
+							<div class='nowpri fl'>￥<a>77.99</a></div>
+							<div class='oldpri fl'>￥<del>100.00</del></div>
+							<div class='fr'><img src='../img/qiang.png'/></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='fl img'>
+						<img src='../img/photoimg4.png'/>
+					</div>
+					<div class='fl right'>
+						<div class='title'>要介绍概要介绍概要介是改善方式</div>
+						<div class='txt'>小标题小标题小标题小标题</div>
+						<div class='money'>
+							<div class='nowpri fl'>￥<a>77.99</a></div>
+							<div class='oldpri fl'>￥<del>100.00</del></div>
+							<div class='fr'><img src='../img/guang.png'/></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='fl img'>
+						<img src='../img/photoimg4.png'/>
+					</div>
+					<div class='fl right'>
+						<div class='title'>要介绍概要介绍概要介是改善方式</div>
+						<div class='txt'>小标题小标题小标题小标题</div>
+						<div class='money'>
+							<div class='nowpri fl'>￥<a>77.99</a></div>
+							<div class='oldpri fl'>￥<del>100.00</del></div>
+							<div class='fr'><img src='../img/qiang.png'/></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</li>
+				<li>
+					<div class='fl img'>
+						<img src='../img/photoimg4.png'/>
+					</div>
+					<div class='fl right'>
+						<div class='title'>要介绍概要介绍概要介是改善方式</div>
+						<div class='txt'>小标题小标题小标题小标题</div>
+						<div class='money'>
+							<div class='nowpri fl'>￥<a>77.99</a></div>
+							<div class='oldpri fl'>￥<del>100.00</del></div>
+							<div class='fr'><img src='../img/guang.png'/></div>
+						</div>
+					</div>
+					<div class='clear'></div>
+				</li>
+			</ul>
+			
+		</section>
+	</body>
+	<script type="text/javascript">
+	$(function(){
+		$('.con').dropload({
+        scrollArea : window,
+        loadUpFn : function(me){
+            $.ajax({
+                type: 'GET',
+                url: 'json/more.json',
+                dataType: 'json',
+                success: function(data){
+                    var result = '';
+                    for(var i = 0; i < data.lists.length; i++){
+                        result +=   'hello';
+                    }
+                    // 为了测试，延迟1秒加载
+                    setTimeout(function(){
+                        $('#lmess').append(result);
+                        me.resetload();
+                    },1000);
+                },
+                error: function(xhr, type){
+                    alert('Ajax error!');
+                    me.resetload();
+                }
+            });
+        }
+    });
+    $('.con').dropload({
+        scrollArea : window,
+        loadDownFn : function(me){
+            $.ajax({
+                type: 'GET',
+                url: 'json/more.json',
+                dataType: 'json',
+                success: function(data){
+                    var result = '';
+                    for(var i = 0; i < data.lists.length; i++){
+                        result +=   'hello';
+                    }
+                    // 为了测试，延迟1秒加载
+                    setTimeout(function(){
+                        $('#lmess').append(result);
+                        me.resetload();
+                    },1000);
+                },
+                error: function(xhr, type){
+                    alert('Ajax error!');
+                    me.resetload();
+                }
+            });
+        }
+    });
+    	TouchSlide({ 
+		    slideCell:"#slideBox",
+		    titCell:".hd ul", //开启自动分页 autoPage:true ，此时设置 titCell 为导航元素包裹层
+		    mainCell:".bd ul", 
+		    effect:"leftLoop", 
+		    autoPage:"<li></li>",//自动分页
+		    autoPlay:true //自动播放
+	    });
+	})
+	</script>
+</html>

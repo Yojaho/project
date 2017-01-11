@@ -1,0 +1,52 @@
+﻿.top{height:51pt;padding-bottom: 0}
+.top .title .logo{background-image: url(../img/logotitle.png);height: 27pt;width: 84pt;float: left;}
+
+.down{background: #efefef;width: 100%;padding-top: 88px;padding-bottom: 60px}
+.down .content{width: 765pt;margin: 0 auto}
+.down .content .title{width: 765pt;text-align: center;margin-bottom:15pt;}
+.down .content .title .titleicon{background: url(../img/icon.png);background-position:-448px -90px;width:34px;height:34px;float:left;margin-right: 20px}
+.down .content .title a{font-size: 18pt;color: #b5241d;float:left;font-family: FZLTIZHK}
+.down .content .title .titlesmall{margin-top: 25px;text-align: left;font-size: 12pt;color: #9fa0a0}
+.down .content .title .titlesmalltitle{float:left;}
+.down .content .title .titlesmall .right{float:right;}
+.down .content .title .titlesmall .right .share{width: 168px;text-align: center;height: 48px;line-height: 48px;background: #fafafa;border-radius: 10px;border:1px solid #c9caca;float:left;}
+.down .content .title .titlesmall .right .share:hover{background: #fff;cursor: pointer;}
+.down .content .title .titlesmall .right .share .shareicon{background: url(../img/icon.png);background-position:-265px -143px;width:27px;height:29px;float:left;margin-top: 10px;margin-left: 43px;}
+.down .content .title .titlesmall .right .share .text{float:left;margin-left:15px;}
+.down .content .title .titlesmall .right .addbutton{background: #b5241d;color: #fff;width: 168px;text-align: center;height: 48px;line-height: 48px;border-radius: 10px;float:left;margin-left: 10px;cursor: pointer;}
+.down .content .title .titlesmall .right .addbutton a{color: #fff;margin-left:30px;font-size:20px;}
+.down .content .title .titlesmall .right ul {float:left;margin-left:10px;}
+.down .content .title .titlesmall .right ul li{padding: 9px 20px;float:left;border: 1px solid #c9caca;background: #fafafa;border-radius: 0px 10px 10px 0px;cursor: pointer;}
+.down .content .title .titlesmall .right ul li:hover{background:#fff;}
+.down .content .title .titlesmall .right ul li.active{border-radius: 10px 0 0 10px;background: #c9caca;color: #fff;cursor: auto;}
+.down .content .title .titlesmall .right ul li div{float:left;}
+.down .content .title .titlesmall .right ul li div.text{margin-left:20px;}
+.down .content .title .titlesmall .right ul li .zhoushitu{background: url(../img/icon.png);background-position:-131px -238px;width:27px;height:29px;}
+.down .content .title .titlesmall .right ul li .mouthshitu{background: url(../img/icon.png);background-position:-164px -237px;width:32px;height:29px;}
+
+.down .content #uls li{list-style: none;width: 190pt;height: 240px;float:left;position: relative;}
+.down .content #uls div.list{background: #d7d7d7;width: 183pt;height: 122pt;position: relative;}
+.down .content #uls div.list .border{height: 120pt;width: 182pt;background: #fff;position: absolute;left:1px;top:1px;cursor: pointer;box-shadow: 1px 2px 2px #ccc}
+.down .content #uls div.list .border img{height:115pt;width: 177pt;margin-top:3px;margin-left:3px;background: no-repeat;}
+.down .content #uls div.listdown .name{font-size: 14pt;width: 183pt;line-height: 24px;text-align: center;margin-top: 8px;cursor: pointer;color: #595757}
+.down .content #uls div.listdown .right{position: absolute;bottom:48px;right: 14px;display: none}
+.down .content #uls div.listdown .change{background: url(../img/icon.png);background-position:-365px -18px;width:21px;height:20px;float:left;}
+.down .content #uls div.listdown .split{color: #b4241c;float:left;margin-right:5px;margin-left:5px;}
+.down .content #uls div.listdown .delete{background: url(../img/icon.png);background-position:-392px -18px;width:21px;height:20px;float:left;}
+
+.toulbgtext{background-image: url(../img/icon.png);background-position:-190px -51px;width:64pt;height:30pt;text-align: center;line-height: 30pt;color: #fff;text-align: center;font-size: 10pt;position: absolute;display: none}
+
+
+.shareitem{width: 100%;height: 100%;background: rgba(0,0,0,0.7);position: absolute;left: 0px;top: 0px;;display: none;opacity: 0;z-index: 99999}
+.shareitem .content{width:480px;position: absolute;border-top: 5px solid #ea433b;background: #f7f8f8;padding-left: 70px;padding-right: 70px;padding-bottom: 30px}
+.shareitem .content .title{margin-top:50px;color: #000;font-size: 22px;font-family: FZLTZHK}
+.shareitem .content input{width: 400px;height: 40px;background: #f8f8f8;border: 1px solid #cccccc;border-radius: 6px;text-indent: 12px;line-height: 40px;font-size: 14px;margin-top:40px;margin-left: 30px}
+.shareitem .content .buttoninput{width: 400px;height: 40px;line-height: 40px;text-align: center;color: #fff;background: #b5251d;font-size: 18px;margin-left:30px;margin-top:20px;border-radius: 6px}
+.shareitem .content p{font-size: 12px;width: 400px;margin-left: 30px;text-align: center;color: #b5b5b5}
+.shareitem .content .button{margin-top: 32px;}
+.shareitem .content .ready{background: #b5241d;color: #fff;font-size: 24px;text-align: center;height: 55px;line-height: 55px;width: 133px;border-radius: 6px;float:left;cursor: pointer;margin-left:100px;}
+.shareitem .content .ready:hover{background: #ff8382}
+.shareitem .content .closed{background: #efefef;color: #000;font-size: 24px;text-align: center;height: 54px;line-height: 54px;width: 133px;border-radius: 6px;float:left;box-shadow: 2px 2px 1px #ddd;margin-left:10px;cursor: pointer;}
+.shareitem .content .closed:hover{background: #ddd}
+.shareitem .content .shareclose{background-image: url(../img/icon.png);background-position:-183px -23px;width:10px;height:10px;position: absolute;right: 10px;top: 5px;cursor: pointer;}
+

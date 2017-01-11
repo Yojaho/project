@@ -1,0 +1,145 @@
+<html>
+	<head>
+		<title>个人预约</title>
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta content="width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=0" name="viewport">
+		<meta content="no-cache,must-revalidate" http-equiv="Cache-Control">
+		<meta content="telephone=no, address=no" name="format-detection">
+		<meta name="apple-mobile-web-app-capable" content="yes">
+		<meta content="no-cache" http-equiv="pragma">
+		<meta content="0" http-equiv="expires">
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+		
+		<link rel="stylesheet" type="text/css" href="../css/public.css" > 
+		<link rel="stylesheet" type="text/css" href="../css/yue.css" >
+		<script type="text/javascript" src="../js/jquery-2.0.2.min.js"></script>
+		<script type="text/javascript" src="../js/size.js"></script>
+		<script src="../js/dropload.min.js"></script>
+		<script>
+		  $(function(){
+			   $('#myappoint').dropload({
+			        scrollArea : window,
+			        loadUpFn : function(me){
+			            $.ajax({
+			                type: 'GET',
+			                url: 'json/more.json',
+			                dataType: 'json',
+			                success: function(data){
+			                    var result = '';
+			                    for(var i = 0; i < data.lists.length; i++){
+			                        result +=   'hello';
+			                    }
+			                    // 为了测试，延迟1秒加载
+			                    setTimeout(function(){
+			                        $('#lmess').append(result);
+			                        me.resetload();
+			                    },1000);
+			                },
+			                error: function(xhr, type){
+			                    alert('Ajax error!');
+			                    me.resetload();
+			                }
+			            });
+			        }
+			    });
+			    $('#myappoint').dropload({
+			        scrollArea : window,
+			        loadDownFn : function(me){
+			            $.ajax({
+			                type: 'GET',
+			                url: 'json/more.json',
+			                dataType: 'json',
+			                success: function(data){
+			                    var result = '';
+			                    for(var i = 0; i < data.lists.length; i++){
+			                        result +=   'hello';
+			                    }
+			                    // 为了测试，延迟1秒加载
+			                    setTimeout(function(){
+			                        $('#lmess').append(result);
+			                        me.resetload();
+			                    },1000);
+			                },
+			                error: function(xhr, type){
+			                    alert('Ajax error!');
+			                    me.resetload();
+			                }
+			            });
+			        }
+			    });
+			 });
+			</script>
+	</head>
+	<body>
+		<section class='myappoint' id="myappoint">
+              <ul class="appoUl appowi">
+              	 <li>
+              	    <a href="myappointdet.html">
+	              	 	<div class="proimg">
+	              	 		 <img src="../img/pro1.png" alt="">
+	              	 	</div>
+	              	 	<div class="procon">
+	              	 		<div class="prodet fl">
+	              	 			<p class="tit">中医推拿</p>
+	              	 			<p class="txt"><span class="money">￥<span class="yuan">129</span>元</span><img src="../img/time-icon.png" class="timeicon" alt=""><span class="time">45分钟</span></p>
+	              	 		</div>
+	              	 		<a href="myappointdet.html" class="yubtn fr">预&nbsp;约</a>	
+	              	 		<div class="clear"></div>
+	              	 	</div>
+              	 	 </a>
+              	 </li>
+              	  <li>
+              	  	  <a href="myappointdet.html">
+	              	 	<div class="proimg">
+	              	 		 <img src="../img/pro1.png" alt="">
+	              	 	</div>
+	              	 	<div class="procon">
+	              	 		<div class="prodet fl">
+	              	 			<p class="tit">中医推拿</p>
+	              	 			<p class="txt"><span class="money">￥<span class="yuan">129</span>元</span><img src="../img/time-icon.png" class="timeicon" alt=""><span class="time">45分钟</span></p>
+	              	 		</div>
+	              	 		<a href="myappointdet.html" class="yubtn fr">预&nbsp;约</a>	
+	              	 		<div class="clear"></div>
+	              	 	</div>
+              	 	 </a>
+              	 </li>
+              	  </li>
+              	  <li>
+              	    <a href="myappointdet.html">
+	              	 	<div class="proimg">
+	              	 		 <img src="../img/pro1.png" alt="">
+	              	 	</div>
+	              	 	<div class="procon">
+	              	 		<div class="prodet fl">
+	              	 			<p class="tit">中医推拿</p>
+	              	 			<p class="txt"><span class="money">￥<span class="yuan">129</span>元</span><img src="../img/time-icon.png" class="timeicon" alt=""><span class="time">45分钟</span></p>
+	              	 		</div>
+	              	 		<a href="myappointdet.html" class="yubtn fr">预&nbsp;约</a>	
+	              	 		<div class="clear"></div>
+	              	 	</div>
+              	 	 </a>
+              	 </li>
+              	  </li>
+              	  <li>
+              	  	  <a href="myappointdet.html">
+	              	 	<div class="proimg">
+	              	 		 <img src="../img/pro1.png" alt="">
+	              	 	</div>
+	              	 	<div class="procon">
+	              	 		<div class="prodet fl">
+	              	 			<p class="tit">中医推拿</p>
+	              	 			<p class="txt"><span class="money">￥<span class="yuan">129</span>元</span><img src="../img/time-icon.png" class="timeicon" alt=""><span class="time">45分钟</span></p>
+	              	 		</div>
+	              	 		<a href="myappointdet.html" class="yubtn fr">预&nbsp;约</a>	
+	              	 		<div class="clear"></div>
+	              	 	</div>
+              	 	 </a>
+              	 </li>
+
+              </ul>	
+            
+		</section>
+	</body>
+
+</html>
